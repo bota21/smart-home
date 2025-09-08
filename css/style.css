@@ -1,0 +1,67 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: #f9fbff;
+  color: #415167;
+  font-size: 16px;
+  height: 100%;
+}
+.content {
+  max-width: 100%;
+  margin: 0 auto;
+  background: linear-gradient(90deg,rgba(93, 33, 255, 1) 0%, rgba(179, 33, 255, 1) 50%);
+  padding: 10px;
+}
+.container_for_tabs {
+  display: flex;
+}
+.smart_home_tabs {
+  padding: 20px;
+  background: #dadada;
+  margin-right: 1px;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+  font-weight: 600;
+}
+.tab_active {
+  background-color: #ffffff;
+  border-left: 1px solid #dadada;
+}
+.wrapper_for_smart_home_tabs {
+  display: flex;
+  width: 100%
+}
+.wrapper_for_smart_home_content {
+  padding: 20px;
+  display: flex;
+  background: #ffffff;
+  width: 100%
+}
+.wrapper_for_smart_home_content .wrapper_for_smart_home_item{
+  transition: opacity 0.3s ease;
+}
+.tabs_for_smart_home_items{
+  width: 20%;
+  margin-right: 10px;
+}
+.tabs_for_smart_home_item{
+  padding: 10px;
+  cursor: pointer;
+}
+.tab_item_active {
+  background: #9e21ff;
+  color: #f9fbff;
+}
+.wrapper_for_smart_home_items{
+  width: 80%;
+  line-height: 110%;
+}
+.image_tab{
+  float: right;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+.price_tab{
+  margin-top: 20px;
+  font-weight: 700;
+}
