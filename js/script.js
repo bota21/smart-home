@@ -46,4 +46,16 @@ $(() => {
     $(".wrapper_for_smart_home_item_3").hide();
     $('.wrapper_for_smart_home_item_3[data-tab="' + tabIndex + '"]').fadeIn();
   });
+
+  // Переключение табов для свет
+  $(".wrapper_for_smart_home_item_4").hide();
+  $('.wrapper_for_smart_home_item_4[data-tab="30"]').show();
+  $('.tabs_for_smart_home_item_4[data-tab="30"]').addClass("tab_item_active");
+  $(".tabs_for_smart_home_item_4").click(function () {
+    const tabIndex = $(this).data("tab");
+    $(".tabs_for_smart_home_item_4").removeClass("tab_item_active");
+    $(this).addClass("tab_item_active");
+    $(".wrapper_for_smart_home_item_4").hide();
+    $('.wrapper_for_smart_home_item_4[data-tab="' + tabIndex + '"]').fadeIn();
+  });
 });

@@ -51,7 +51,8 @@ header {
 .wrapper_for_smart_home_content,
 .wrapper_for_smart_home_item_1,
 .wrapper_for_smart_home_item_2,
-.wrapper_for_smart_home_item_3 {
+.wrapper_for_smart_home_item_3,
+.wrapper_for_smart_home_item_4 {
   transition: opacity 0.3s ease;
 }
 .tabs_for_smart_home_items {
@@ -60,7 +61,8 @@ header {
 }
 .tabs_for_smart_home_item_1,
 .tabs_for_smart_home_item_2,
-.tabs_for_smart_home_item_3 {
+.tabs_for_smart_home_item_3,
+.tabs_for_smart_home_item_4 {
   padding: 10px;
   cursor: pointer;
 }
@@ -96,7 +98,8 @@ header {
 footer {
   background: #fff;
   padding: 20px;
-  margin: 0 10px;
+  margin: 0 10px 10px 10px;
   font-style: italic;
+  font-weight: 600;
   font-size: small;
 }
