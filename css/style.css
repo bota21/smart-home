@@ -124,14 +124,15 @@ footer {
   }
   .container_for_tabs {
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
   }
 
   .smart_home_tabs {
     margin-bottom: 5px;
     padding: 10px;
-    font-size: 14px;
-    width: 40%;
+    font-size: 10px;
+    width: 43%;
+    border-radius: 5px;
   }
 
   .wrapper_for_smart_home_tabs {
