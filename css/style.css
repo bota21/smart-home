@@ -91,7 +91,8 @@ header {
   height: 300px;
 }
 .text_tab {
-  line-height: 120%;
+  line-height: 160%;
+  text-indent: 30px;
 }
 .price_tab {
   margin-top: 20px;
