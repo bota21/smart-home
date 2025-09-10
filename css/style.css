@@ -1,11 +1,14 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: #f9fbff;
   color: #415167;
   font-size: 16px;
   height: 100%;
   background: linear-gradient(90deg, rgba(93, 33, 255, 1) 0%, rgba(179, 33, 255, 1) 50%);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
 }
+
 header {
   padding: 10px 10px 30px 10px;
   margin-top: 10px;
@@ -114,4 +117,49 @@ footer {
   font-style: italic;
   font-weight: 600;
   font-size: small;
+}
+@media (max-width: 768px) {
+  body {
+    font-size: 10px;
+  }
+  .container_for_tabs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .smart_home_tabs {
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: 14px;
+    width: 40%;
+  }
+
+  .wrapper_for_smart_home_tabs {
+    flex-wrap: wrap;
+  }
+
+  .wrapper_for_smart_home_content {
+    padding: 10px;
+  }
+
+  .tabs_for_smart_home_items {
+    width: 40%;
+    max-height: 600px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .wrapper_for_smart_home_items {
+    width: 100%;
+  }
+
+  .image_tab,
+  .images_in_wrapper {
+    width: 70%;
+    height: auto;
+    float: none;
+    margin: 0 auto 20px auto;
+    display: block;
+  }
 }
