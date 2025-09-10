@@ -4,11 +4,7 @@ body {
   color: #415167;
   font-size: 16px;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    rgba(93, 33, 255, 1) 0%,
-    rgba(179, 33, 255, 1) 50%
-  );
+  background: linear-gradient(90deg, rgba(93, 33, 255, 1) 0%, rgba(179, 33, 255, 1) 50%);
 }
 header {
   padding: 10px 10px 30px 10px;
@@ -64,6 +60,9 @@ header {
 .tabs_for_smart_home_items {
   width: 20%;
   margin-right: 10px;
+  max-height: 500px; /* ограничиваем высоту */
+  overflow-y: auto; /* вертикальная прокрутка */
+  padding: 10px;
 }
 .tabs_for_smart_home_item_1,
 .tabs_for_smart_home_item_2,
