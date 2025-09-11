@@ -10,7 +10,7 @@ $(() => {
     $(".wrapper_for_smart_home_content").hide();
     $('.wrapper_for_smart_home_content[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для яндекс
+  // Переключение табов для управление
   $(".wrapper_for_smart_home_item_1").hide();
   $('.wrapper_for_smart_home_item_1[data-tab="00"]').show();
   $('.tabs_for_smart_home_item_1[data-tab="00"]').addClass("tab_item_active");
@@ -43,7 +43,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_3").hide();
     $('.wrapper_for_smart_home_item_3[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для свет
+  // Переключение табов для освещения
   $(".wrapper_for_smart_home_item_4").hide();
   $('.wrapper_for_smart_home_item_4[data-tab="30"]').show();
   $('.tabs_for_smart_home_item_4[data-tab="30"]').addClass("tab_item_active");
@@ -76,7 +76,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_6").hide();
     $('.wrapper_for_smart_home_item_6[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для Увлажнители, очистители воздуха
+  // Переключение табов для техника
   $(".wrapper_for_smart_home_item_7").hide();
   $('.wrapper_for_smart_home_item_7[data-tab="60"]').show();
   $('.tabs_for_smart_home_item_7[data-tab="60"]').addClass("tab_item_active");
@@ -87,7 +87,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_7").hide();
     $('.wrapper_for_smart_home_item_7[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для Кондиционер, пылесос
+  // Переключение табов для камера
   $(".wrapper_for_smart_home_item_8").hide();
   $('.wrapper_for_smart_home_item_8[data-tab="70"]').show();
   $('.tabs_for_smart_home_item_8[data-tab="70"]').addClass("tab_item_active");
@@ -98,7 +98,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_8").hide();
     $('.wrapper_for_smart_home_item_8[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для камера
+  // Переключение табов для замки
   $(".wrapper_for_smart_home_item_9").hide();
   $('.wrapper_for_smart_home_item_9[data-tab="80"]').show();
   $('.tabs_for_smart_home_item_9[data-tab="80"]').addClass("tab_item_active");
@@ -109,7 +109,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_9").hide();
     $('.wrapper_for_smart_home_item_9[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для замок
+  // Переключение табов для приводы
   $(".wrapper_for_smart_home_item_10").hide();
   $('.wrapper_for_smart_home_item_10[data-tab="90"]').show();
   $('.tabs_for_smart_home_item_10[data-tab="90"]').addClass("tab_item_active");
