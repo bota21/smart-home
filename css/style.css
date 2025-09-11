@@ -102,6 +102,9 @@ header {
   line-height: 160%;
   text-indent: 30px;
 }
+.bold_text {
+  font-weight: 500;
+}
 .price_tab {
   margin-top: 20px;
   font-weight: 700;
@@ -138,6 +141,8 @@ footer {
     font-size: 10px;
     width: 43%;
     border-radius: 5px;
+    box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 8px, inset rgba(252, 255, 255, 0.7) 0 3px 8px,
+      rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
   }
 
   .wrapper_for_smart_home_tabs {
