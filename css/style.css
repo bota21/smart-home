@@ -24,18 +24,23 @@ header {
 }
 .container_for_tabs {
   display: flex;
+  justify-content: space-between;
 }
 .smart_home_tabs {
-  padding: 20px;
+  padding: 15px 28px;
   background: #dadada;
   margin-right: 1px;
   cursor: pointer;
   border-radius: 10px 10px 0 0;
   font-weight: 600;
+  box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 8px, inset rgba(252, 255, 255, 0.7) 0 3px 8px,
+    rgba(0, 0, 0, 0.8) 0 3px 8px -3px;
 }
 .tab_active {
   background-color: #ffffff;
   border-left: 1px solid #dadada;
+  box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 8px, inset rgba(255, 255, 255, 0.9) 3px 3px 8px,
+    rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
 }
 .wrapper_for_smart_home_tabs {
   display: flex;
