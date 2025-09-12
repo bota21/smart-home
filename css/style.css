@@ -103,7 +103,10 @@ header {
   text-indent: 30px;
 }
 .bold_text {
-  font-weight: 500;
+  font-weight: 550;
+}
+.italic-text {
+  font-style: italic;
 }
 .price_tab {
   margin-top: 20px;

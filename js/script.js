@@ -98,7 +98,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_8").hide();
     $('.wrapper_for_smart_home_item_8[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для замки
+  // Переключение табов для для дверей и окон
   $(".wrapper_for_smart_home_item_9").hide();
   $('.wrapper_for_smart_home_item_9[data-tab="80"]').show();
   $('.tabs_for_smart_home_item_9[data-tab="80"]').addClass("tab_item_active");
@@ -109,7 +109,7 @@ $(() => {
     $(".wrapper_for_smart_home_item_9").hide();
     $('.wrapper_for_smart_home_item_9[data-tab="' + tabIndex + '"]').fadeIn();
   });
-  // Переключение табов для приводы
+  // Переключение табов для ворота
   $(".wrapper_for_smart_home_item_10").hide();
   $('.wrapper_for_smart_home_item_10[data-tab="90"]').show();
   $('.tabs_for_smart_home_item_10[data-tab="90"]').addClass("tab_item_active");
