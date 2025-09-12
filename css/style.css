@@ -10,11 +10,12 @@ body {
 }
 
 header {
-  padding: 10px 10px 30px 10px;
+  padding: 10px;
   margin-top: 10px;
-  display: flex;
   color: #ffffff;
-  justify-content: center;
+  display: flex;
+  justify-content: start;
+  align-items: end;
   font-weight: 600;
 }
 .content {

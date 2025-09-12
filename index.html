@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,7 +14,56 @@
 
   <body>
     <header class="header">
-      <h3>Список устройств для умного дома</h3>
+      <svg width="250" height="80" viewBox="0 0 250 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Градиенты -->
+        <defs>
+          <!-- Градиент для Wi-Fi -->
+          <linearGradient id="wifiGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#00E0FF" />
+            <stop offset="100%" stop-color="#8A2EFF" />
+          </linearGradient>
+          <!-- Градиент для текста -->
+          <linearGradient id="textGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="white" />
+            <stop offset="100%" stop-color="#cccccc" />
+          </linearGradient>
+        </defs>
+
+        <!-- Дом со строгими углами -->
+        <path d="M15 30 L40 10 L65 30 V65 H15 Z" stroke="white" stroke-width="4" fill="none" stroke-linejoin="round" />
+
+        <!-- Wi-Fi (2 дуги + точка) -->
+        <path
+          d="M40 38 C34 38 28 42 28 42"
+          stroke="url(#wifiGradient)"
+          stroke-width="3"
+          stroke-linecap="round"
+          fill="none"
+        />
+        <path
+          d="M40 45 C36 45 32 48 32 48"
+          stroke="url(#wifiGradient)"
+          stroke-width="3"
+          stroke-linecap="round"
+          fill="none"
+        />
+        <circle cx="40" cy="52" r="3" fill="url(#wifiGradient)" />
+
+        <!-- Название -->
+        <text
+          x="80"
+          y="55"
+          fill="url(#textGradient)"
+          font-size="32"
+          font-family="Arial, Helvetica, sans-serif"
+          font-weight="900"
+          stroke="white"
+          stroke-width="0.5"
+          paint-order="stroke"
+        >
+          SmartÜi
+        </text>
+      </svg>
     </header>
     <!-- Основные табы -->
     <div class="content">
