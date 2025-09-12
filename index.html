@@ -14,54 +14,49 @@
 
   <body>
     <header class="header">
-      <svg width="250" height="80" viewBox="0 0 250 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <!-- Градиенты -->
+      <svg width="250" height="150" viewBox="0 0 250 150" xmlns="http://www.w3.org/2000/svg">
         <defs>
-          <!-- Градиент для Wi-Fi -->
-          <linearGradient id="wifiGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="#00E0FF" />
-            <stop offset="100%" stop-color="#8A2EFF" />
-          </linearGradient>
-          <!-- Градиент для текста -->
-          <linearGradient id="textGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="white" />
-            <stop offset="100%" stop-color="#cccccc" />
+          <linearGradient id="logoGradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#f0f0f0" />
+            <stop offset="100%" stop-color="#ffffff" />
           </linearGradient>
         </defs>
 
-        <!-- Дом со строгими углами -->
-        <path d="M15 30 L40 10 L65 30 V65 H15 Z" stroke="white" stroke-width="4" fill="none" stroke-linejoin="round" />
-
-        <!-- Wi-Fi (2 дуги + точка) -->
-        <path
-          d="M40 38 C34 38 28 42 28 42"
-          stroke="url(#wifiGradient)"
-          stroke-width="3"
-          stroke-linecap="round"
-          fill="none"
-        />
-        <path
-          d="M40 45 C36 45 32 48 32 48"
-          stroke="url(#wifiGradient)"
-          stroke-width="3"
-          stroke-linecap="round"
-          fill="none"
-        />
-        <circle cx="40" cy="52" r="3" fill="url(#wifiGradient)" />
-
-        <!-- Название -->
+        <!-- Слово SMART слева -->
         <text
-          x="80"
-          y="55"
-          fill="url(#textGradient)"
-          font-size="32"
-          font-family="Arial, Helvetica, sans-serif"
-          font-weight="900"
-          stroke="white"
-          stroke-width="0.5"
-          paint-order="stroke"
+          x="95"
+          y="80"
+          font-family="Arial, sans-serif"
+          font-size="24"
+          font-weight="bold"
+          text-anchor="end"
+          alignment-baseline="middle"
+          fill="url(#logoGradient)"
         >
-          SmartÜi
+          SMART
+        </text>
+
+        <!-- Компактный домик справа -->
+        <polygon
+          points="105,60 140,40 175,60 175,100 105,100"
+          fill="none"
+          stroke="url(#logoGradient)"
+          stroke-width="6"
+          stroke-linejoin="round"
+        />
+
+        <!-- Внутри дома буквы Üi -->
+        <text
+          x="140"
+          y="80"
+          font-family="Arial, sans-serif"
+          font-size="24"
+          font-weight="bold"
+          text-anchor="middle"
+          alignment-baseline="middle"
+          fill="url(#logoGradient)"
+        >
+          Üi
         </text>
       </svg>
     </header>
@@ -357,7 +352,7 @@
             <div class="tabs_for_smart_home_item_2" data-tab="19">Датчик температуры и влажности Kojimo</div>
             <div class="tabs_for_smart_home_item_2" data-tab="110">Датчик температуры и влажности Sonoff SNZB-02D</div>
             <div class="tabs_for_smart_home_item_2" data-tab="111">
-              Датчик качества воздуха | Aqara TVOC Air Quality Monitor
+              Датчик качества воздуха Aqara TVOC Air Quality Monitor
             </div>
             <div class="tabs_for_smart_home_item_2" data-tab="112">Датчик протечки воды Яндекс</div>
             <div class="tabs_for_smart_home_item_2" data-tab="113">Датчик протечки воды Sonoff</div>
@@ -734,7 +729,7 @@
                 <br />
                 Питание - CR2477
               </div>
-              <div class="price_tab">Стоимость 8 400 тг</div>
+              <div class="price_tab">Стоимость 13 860 тг</div>
             </div>
             <div class="wrapper_for_smart_home_item_2" data-tab="115">
               <img src="./img/1-sensor/Детектор газа.jpg" alt="Детектор газа" class="image_tab" />
@@ -793,7 +788,7 @@
                 <br />
                 Питание - От сети
               </div>
-              <div class="price_tab">Стоимость 11840 тг</div>
+              <div class="price_tab">Стоимость 11 840 тг</div>
             </div>
             <div class="wrapper_for_smart_home_item_2" data-tab="118">
               <img src="./img/1-sensor/Датчик дыма Tuya.jpeg" alt="Датчик газа Tuya" class="image_tab" />
@@ -868,9 +863,10 @@
             <div class="tabs_for_smart_home_item_3" data-tab="212">Реле для диммера ZigBee с Алисой, 2 линии</div>
             <div class="tabs_for_smart_home_item_3" data-tab="213">Розетка накладная Яндекс</div>
             <div class="tabs_for_smart_home_item_3" data-tab="214">Умная розетка ROXIMO</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="215">Реле одноканальное Яндекс</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="216">Реле двуканальное Яндекс</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="217">Яндекс умная беспроводная кнопка YNDX-00524</div>
+            <div class="tabs_for_smart_home_item_3" data-tab="215">Умная розетка SmartLife</div>
+            <div class="tabs_for_smart_home_item_3" data-tab="216">Реле одноканальное Яндекс</div>
+            <div class="tabs_for_smart_home_item_3" data-tab="217">Реле двуканальное Яндекс</div>
+            <div class="tabs_for_smart_home_item_3" data-tab="218">Яндекс умная беспроводная кнопка YNDX-00524</div>
           </div>
           <div class="wrapper_for_smart_home_items">
             <div class="wrapper_for_smart_home_item_3" data-tab="20">
@@ -1189,6 +1185,26 @@
               <div class="price_tab">Стоимость 12 500 тг</div>
             </div>
             <div class="wrapper_for_smart_home_item_3" data-tab="215">
+              <img src="./img/3-socket/Умная розетка SmartLife.png" alt="Умная розетка SmartLife" class="image_tab" />
+              <div class="text_tab">
+                Розетку можно удаленно включать и выключать с телефона, или при помощи голосового управления в любой эко
+                системе умного дома. Есть возможность устанавливать таймер.
+                <br />
+                Незаменимый девайс для удаленного управления электроприборами, подключенными к сети, такими как
+                светильники, гирлянды, чайник, обогреватель, телевизор, вентилятор, увлажнитель воздуха и т.д. В режиме
+                реального времени показывает сколько энергии потребляет ваша бытовая техника. Создавайте любые сценарии
+                в системе умного дома и объединяйте розетку с другими умными устройствами.
+                <br />
+                <br />
+                Экосистема - SmartLife
+                <br />
+                Протокол связи - WiFi
+                <br />
+                Питание - От сети
+              </div>
+              <div class="price_tab">Стоимость 4 000 тг</div>
+            </div>
+            <div class="wrapper_for_smart_home_item_3" data-tab="216">
               <img src="./img/3-socket/реле 1х.jpg" alt="реле 1х" class="image_tab" />
               <div class="text_tab">
                 Умное реле Яндекс — это компактное устройство, позволяющее сделать обычные выключатели частью умного
@@ -1204,7 +1220,7 @@
               </div>
               <div class="price_tab">Стоимость 12 600 тг</div>
             </div>
-            <div class="wrapper_for_smart_home_item_3" data-tab="216">
+            <div class="wrapper_for_smart_home_item_3" data-tab="217">
               <img src="./img/3-socket/реле 2х.jpg" alt="реле 2х" class="image_tab" />
               <div class="text_tab">
                 Умное реле Яндекс — это компактное устройство, позволяющее сделать обычные выключатели частью умного
@@ -1220,7 +1236,7 @@
               </div>
               <div class="price_tab">Стоимость 14 000 тг</div>
             </div>
-            <div class="wrapper_for_smart_home_item_3" data-tab="217">
+            <div class="wrapper_for_smart_home_item_3" data-tab="218">
               <img src="./img/3-switch/Кнопка Яндекс.jpg" alt="Кнопка Яндекс" class="image_tab" />
               <div class="text_tab">
                 Работает от батареек и может стать удобным дверным звонком или единственной кнопкой для запуска и
