@@ -18,7 +18,7 @@ header {
   font-weight: 600;
 }
 .logo_img {
-  width: 130px;
+  width: 70px;
   height: 50px;
 }
 
@@ -162,8 +162,8 @@ footer {
     padding: 10px 10px 0px 0px;
   }
   .logo_img {
-    width: 70px;
-    height: 30px;
+    width: 30px;
+    height: 20px;
   }
   .wrapper_logo_text {
     font-size: 20px;
