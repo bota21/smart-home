@@ -130,9 +130,38 @@ footer {
   background: #fff;
   padding: 20px;
   margin: 0 10px 10px 10px;
+
+  font-size: 14px;
+}
+.footer_info_price {
   font-style: italic;
   font-weight: 600;
-  font-size: small;
+  padding-bottom: 20px;
+}
+.footer_wrapper_contacts {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  border-top: 1px solid #415167;
+  padding-top: 20px;
+}
+.img_contact {
+  display: block;
+  width: 25px;
+  height: 25px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.footer_contact_phone {
+  background-image: url("../img/logo/phone.png");
+}
+
+.footer_contact_whatsapp {
+  background-image: url("../img/logo/whatsapp.png");
 }
 
 @media (max-width: 1280px) {
@@ -211,5 +240,8 @@ footer {
     float: none;
     margin: 0 auto 20px auto;
     display: block;
+  }
+  .footer_wrapper_contacts {
+    font-size: 12px;
   }
 }
