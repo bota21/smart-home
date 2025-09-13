@@ -17,13 +17,11 @@ header {
   align-items: end;
   font-weight: 600;
 }
-/* .logo_img {
-  width: 50px;
+.logo_img {
+  width: 130px;
   height: 50px;
 }
-.wrapper_logo_text {
-  font-size: 25px;
-} */
+
 .content {
   max-width: 100%;
   margin: 0 auto;
@@ -140,13 +138,13 @@ footer {
   body {
     font-size: 10px;
   }
-  /* header {
-    padding: 0 0 10px 10px;
+  header {
+    padding: 10px 10px 0px 0px;
   }
   .logo_img {
-    width: 35px;
-    height: 35px;
-  } */
+    width: 70px;
+    height: 30px;
+  }
   .wrapper_logo_text {
     font-size: 20px;
   }
