@@ -134,7 +134,27 @@ footer {
   font-weight: 600;
   font-size: small;
 }
-@media (max-width: 768px) {
+
+@media (max-width: 1280px) {
+  .smart_home_tabs {
+    padding: 20px 10px;
+  }
+}
+@media (max-width: 1061px) {
+  .smart_home_tabs {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px) {
+  body {
+    font-size: 12px;
+  }
+  .smart_home_tabs {
+    padding: 15px 10px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 868px) {
   body {
     font-size: 10px;
   }
@@ -169,6 +189,7 @@ footer {
 
   .wrapper_for_smart_home_content {
     padding: 10px;
+    border-radius: 3px;
   }
 
   .tabs_for_smart_home_items {
