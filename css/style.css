@@ -175,9 +175,7 @@ header {
     height: 60px;
     margin: 10px;
   }
-  /* .main_content {
-    font-size: 10px;
-  } */
+
   .main_text_wrapper {
     width: 90%;
     line-height: 16px;
@@ -190,6 +188,11 @@ header {
   .main_icons_wrapper {
     display: flex;
     flex-wrap: wrap;
+  }
+  .main_icon_img {
+    margin: 0 0 10px 0;
+    width: 25px;
+    height: 25px;
   }
   .main_icon_wrapper {
     width: 40%;
