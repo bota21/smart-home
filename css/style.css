@@ -38,7 +38,6 @@ header {
   height: 304px;
   margin-top: 80px;
   opacity: 1;
-  /* animation: pixelAppear 7s ease-in-out forwards; <-- тоже убираем */
 }
 
 .main_logo_wrapper.animate .main_logo {
@@ -166,6 +165,13 @@ header {
     display: flex;
     flex-wrap: wrap;
     padding: 40px 0 0 0;
+  }
+  .main_icon_wrapper:hover {
+    box-shadow: inset rgba(0, 0, 0, 0.5) -3px -3px 8px, inset rgba(255, 255, 255, 0.9) 3px 3px 8px,
+      rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+  }
+  .main_icon_wrapper:checked {
+    box-shadow: 0 4px 10px 1px rgba(110, 33, 255, 0.1);
   }
   .main_icon_img {
     margin: 0 0 10px 0;

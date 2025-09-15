@@ -1,0 +1,30 @@
+.content {
+  width: 100%;
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 10px;
+  width: 95%;
+  margin: 0 auto 10px auto;
+  font-family: "Nunito Sans", sans-serif;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+.wrapper_main_content {
+  width: 100%;
+}
+.wrapper_video {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#video {
+  width: 500px;
+  height: 315px;
+}
+@media (max-width: 868px) {
+  #video {
+    width: 90%;
+    height: 150px;
+  }
+}
