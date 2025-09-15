@@ -142,13 +142,14 @@ header {
   .main_logo {
     width: 330px;
     height: 220px;
-    margin-top: 120px;
+    margin-top: 70px;
   }
 
   .main_text_wrapper {
     width: 90%;
     line-height: 16px;
     font-size: 11px;
+    padding: 30px 0 0 0;
   }
   .main_icon_text {
     font-size: 10px;
@@ -157,6 +158,7 @@ header {
   .main_icons_wrapper {
     display: flex;
     flex-wrap: wrap;
+    padding: 40px 0 0 0;
   }
   .main_icon_img {
     margin: 0 0 10px 0;
