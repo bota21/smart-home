@@ -27,14 +27,21 @@ header {
   display: flex;
   justify-content: center;
   align-items: start;
-  animation: logoWrapper 7s ease-in-out forwards;
+}
+
+.main_logo_wrapper.animate {
+  animation: logoWrapper 7s ease-in-out forwards; /* добавляем только при первом заходе */
 }
 
 .main_logo {
   width: 450px;
   height: 304px;
-  margin-top: 100px;
+  margin-top: 80px;
   opacity: 1;
+  /* animation: pixelAppear 7s ease-in-out forwards; <-- тоже убираем */
+}
+
+.main_logo_wrapper.animate .main_logo {
   animation: pixelAppear 7s ease-in-out forwards;
 }
 
@@ -51,6 +58,7 @@ header {
   100% {
     opacity: 0;
     filter: blur(4px);
+    display: none;
   }
 }
 
@@ -72,7 +80,6 @@ header {
     filter: blur(2px); /* лёгкое размытие при уменьшении */
   }
 }
-
 .main_text_wrapper {
   width: 90%;
   padding: 60px 0;
@@ -81,7 +88,7 @@ header {
   text-indent: 30px;
   line-height: 30px;
   font-size: 19px;
-  background-image: url("../img/logo/Shanyrak.png");
+  background-image: url("../assets/logo/Shanyrak.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

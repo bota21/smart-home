@@ -56,19 +56,19 @@ header {
   cursor: pointer;
 }
 .header_contact_phone {
-  background-image: url("../img/icons/phone.png");
+  background-image: url("../assets/icons/phone.png");
 }
 
 .header_contact_whatsapp {
-  background-image: url("../img/icons/whatsapp.png");
+  background-image: url("../assets/icons/whatsapp.png");
 }
 .header_contact_telegram {
-  background-image: url("../img/icons/telegram.png");
+  background-image: url("../assets/icons/telegram.png");
 }
 .logo_img {
   width: 70px;
   height: 50px;
-  background-image: url("../img//logo/Shanyrak.png");
+  background-image: url("../assets/logo/Shanyrak.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
