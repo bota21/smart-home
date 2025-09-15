@@ -5,7 +5,7 @@ header {
   padding: 10px 10px 0px 20px;
 }
 .content {
-  margin: 0 auto;
+  margin: 20px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,106 +17,74 @@ header {
   width: 95%;
   margin: 0 auto 10px auto;
   font-family: "Nunito Sans", sans-serif;
+  padding: 20px 0;
 }
 .main_logo_wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(93, 33, 255, 1) 0%, rgba(179, 33, 255, 1) 50%);
   display: flex;
   justify-content: center;
-}
-.main_logo {
-  width: 350px;
-  height: 250px;
-  /* margin-bottom: 20px; */
-  /* Сначала скрыта */
-  opacity: 0;
-  filter: blur(8px);
-  animation: pixelAppear 0.8s steps(5) forwards;
+  align-items: start;
+  animation: logoWrapper 7s ease-in-out forwards;
 }
 
-/* Анимация: по шагам проявляется, будто из точек */
-@keyframes pixelAppear {
+.main_logo {
+  width: 450px;
+  height: 304px;
+  margin-top: 100px;
+  opacity: 1;
+  animation: pixelAppear 7s ease-in-out forwards;
+}
+
+/* Фон исчезает постепенно, но первые 3 секунды остаётся */
+@keyframes logoWrapper {
   0% {
-    opacity: 0;
-    filter: blur(8px);
-    transform: scale(0.8);
-  }
-  10% {
-    opacity: 0.1;
-    filter: blur(7px);
-  }
-  20% {
-    opacity: 0.2;
-    filter: blur(6px);
-  }
-  30% {
-    opacity: 0.3;
-    filter: blur(5px);
-  }
-  50% {
-    opacity: 0.4;
-    filter: blur(4px);
-  }
-  50% {
-    opacity: 0.5;
-    filter: blur(3px);
-  }
-  60% {
-    opacity: 0.6;
-    filter: blur(2px);
-  }
-  70% {
-    opacity: 0.7;
-    filter: blur(1px);
-  }
-  80% {
-    opacity: 0.8;
-    filter: blur(1px);
-  }
-  100% {
     opacity: 1;
     filter: blur(0);
-    transform: scale(1);
-  }
-}
-
-/* @keyframes pixelAppear {
-  0% {
-    opacity: 0;
-    filter: blur(8px);
-    transform: scale(0.8);
-  }
-  20% {
-    opacity: 0.2;
-    filter: blur(4px);
   }
   40% {
-    opacity: 0.6;
-    filter: blur(4px);
-  }
-  60% {
-    opacity: 1;
+    opacity: 1; /* 40% от 7s ≈ 2.8 сек — фон остаётся */
     filter: blur(0);
-    transform: scale(1);
-  }
-  80% {
-    opacity: 0.6;
-    filter: blur(4px);
-  }
-  90% {
-    opacity: 0.2;
-    filter: blur(4px);
   }
   100% {
-    display: none;
+    opacity: 0;
+    filter: blur(4px);
   }
-} */
+}
+
+/* Логотип остаётся в нормальном размере и только потом уменьшается */
+@keyframes pixelAppear {
+  0% {
+    opacity: 1;
+    transform: scale(1); /* сразу нормальный размер */
+    filter: blur(0);
+  }
+  40% {
+    opacity: 1; /* держим его чётким первые ~3 сек */
+    transform: scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.8); /* уменьшаем к концу */
+    filter: blur(2px); /* лёгкое размытие при уменьшении */
+  }
+}
+
 .main_text_wrapper {
   width: 90%;
-  padding: 20px 0;
+  padding: 60px 0;
   margin: 0px auto;
   text-align: justify;
   text-indent: 30px;
   line-height: 30px;
   font-size: 19px;
+  background-image: url("../img/logo/Shanyrak.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .text_bold {
   font-weight: 600;
@@ -128,6 +96,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  padding: 40px 0;
 }
 .main_icon_img {
   width: 40px;
@@ -171,9 +140,9 @@ header {
 
 @media (max-width: 868px) {
   .main_logo {
-    width: 90px;
-    height: 60px;
-    margin: 10px;
+    width: 330px;
+    height: 220px;
+    margin-top: 120px;
   }
 
   .main_text_wrapper {
