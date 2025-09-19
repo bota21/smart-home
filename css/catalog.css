@@ -180,7 +180,7 @@ footer {
 
   .wrapper_for_smart_home_content {
     padding: 10px;
-    border-radius: 3px;
+    border-radius: 3px 3px 0 0;
   }
 
   .tabs_for_smart_home_items {
