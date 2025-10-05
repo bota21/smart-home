@@ -38,7 +38,7 @@
   width: 100%;
 }
 .wrapper_for_smart_home_content {
-  padding: 20px;
+  padding: 20px 20px 20px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,7 +65,7 @@
   margin-right: 10px;
   max-height: 500px; /* ограничиваем высоту */
   overflow-y: auto; /* вертикальная прокрутка */
-  padding: 10px;
+  padding-left: 2px;
 }
 .tabs_for_smart_home_item_1,
 .tabs_for_smart_home_item_2,
@@ -77,12 +77,13 @@
 .tabs_for_smart_home_item_8,
 .tabs_for_smart_home_item_9,
 .tabs_for_smart_home_item_10 {
-  padding: 10px;
+  padding: 7px;
   cursor: pointer;
 }
 .tab_item_active {
   background: #9e21ff;
   color: #f9fbff;
+  border-radius: 0 3px 3px 0;
 }
 .wrapper_for_smart_home_items {
   width: 80%;
@@ -182,7 +183,7 @@ footer {
   }
 
   .wrapper_for_smart_home_content {
-    padding: 10px;
+    padding: 10px 10px 10px 0;
     border-radius: 3px 3px 0 0;
   }
 
