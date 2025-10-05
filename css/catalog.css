@@ -150,6 +150,9 @@ footer {
   }
 }
 @media (max-width: 868px) {
+  body {
+    font-size: 12px;
+  }
   .wrapper_logo_text {
     font-size: 20px;
   }
@@ -164,7 +167,7 @@ footer {
   .smart_home_tabs {
     margin-bottom: 5px;
     padding: 10px;
-    font-size: 10px;
+    font-size: 14px;
     width: 43%;
     border-radius: 5px;
     -webkit-box-shadow: inset rgba(0, 0, 0, 0.6) 0 -3px 8px, inset rgba(252, 255, 255, 0.7) 0 3px 8px,
@@ -184,7 +187,7 @@ footer {
   }
 
   .tabs_for_smart_home_items {
-    width: 40%;
+    width: 45%;
     max-height: 600px;
     overflow-y: auto;
     margin-bottom: 20px;

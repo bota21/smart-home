@@ -94,6 +94,7 @@ footer {
   background-size: 200% auto;
   background-clip: padding-box;
   transition: background-position 0.5s, color 0.5s;
+  font-size: 14px;
 }
 
 .footer_back_main:hover {
@@ -110,7 +111,7 @@ footer {
     padding: 10px 10px 0px 10px;
   }
   .header_wrapper_contacts {
-    font-size: 8px;
+    font-size: 10px;
     padding-top: 0px;
   }
   .header_img_contact {
@@ -119,7 +120,7 @@ footer {
     height: 20px;
   }
   .logo_img {
-    width: 30px;
-    height: 20px;
+    width: 50px;
+    height: 25px;
   }
 }
