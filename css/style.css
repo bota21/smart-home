@@ -18,6 +18,31 @@ header {
   font-family: "Montserrat", sans-serif;
   padding: 20px 0;
   margin: 0 10px;
+  opacity: 1; /* важно — без анимации всё видно */
+  filter: blur(0);
+}
+
+.main_content.animate {
+  animation: contentWrapper 7s ease-in-out forwards; /* ✅ запускается только при первом заходе */
+}
+
+@keyframes contentWrapper {
+  0% {
+    opacity: 0;
+    filter: blur(4px);
+    max-height: 0;
+    overflow: hidden;
+  }
+  40% {
+    opacity: 0;
+    filter: blur(0);
+    max-height: 0;
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0);
+    max-height: 200vh;
+  }
 }
 .main_logo_wrapper {
   position: absolute;

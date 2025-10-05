@@ -1,26 +1,32 @@
 $(() => {
-  const wrapper = document.querySelector(".main_logo_wrapper");
-
-  // Проверяем, был ли показ анимации ранее
-  const animationShown = localStorage.getItem("logoAnimationShown");
+  const logoWrapper = document.querySelector(".main_logo_wrapper");
+  const contentWrapper = document.querySelector(".main_content");
   const navigationType = performance.getEntriesByType("navigation")[0]?.type;
+  let animationShown = localStorage.getItem("logoAnimationShown");
 
-  // Если пользователь сделал F5 или Ctrl+R — сбрасываем флаг
+  // 🔄 Если страница перезагружается — сбрасываем флаг
   if (navigationType === "reload") {
     localStorage.removeItem("logoAnimationShown");
+    animationShown = null;
   }
 
-  // Если анимация не показывалась — запускаем
-  if (!localStorage.getItem("logoAnimationShown")) {
-    if (wrapper) {
-      wrapper.classList.add("animate");
-      wrapper.addEventListener("animationend", () => {
-        wrapper.style.display = "none";
+  if (!animationShown) {
+    // ✅ Первый визит — запускаем анимацию и СРАЗУ записываем флаг
+    localStorage.setItem("logoAnimationShown", "true");
+
+    if (logoWrapper) {
+      logoWrapper.classList.add("animate");
+      logoWrapper.addEventListener("animationend", () => {
+        logoWrapper.style.display = "none";
       });
     }
-    localStorage.setItem("logoAnimationShown", "true");
+
+    if (contentWrapper) {
+      contentWrapper.classList.add("animate");
+    }
   } else {
-    // Если уже была — скрываем сразу
-    if (wrapper) wrapper.style.display = "none";
+    // ✅ Если уже была — не запускаем анимацию вообще
+    if (logoWrapper) logoWrapper.style.display = "none";
+    if (contentWrapper) contentWrapper.classList.remove("animate");
   }
 });
