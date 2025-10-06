@@ -2,17 +2,18 @@ $(() => {
   const logoWrapper = document.querySelector(".main_logo_wrapper");
   const contentWrapper = document.querySelector(".main_content");
   const navigationType = performance.getEntriesByType("navigation")[0]?.type;
-  let animationShown = localStorage.getItem("logoAnimationShown");
+
+  let animationShown = sessionStorage.getItem("logoAnimationShown");
 
   // 🔄 Если страница перезагружается — сбрасываем флаг
   if (navigationType === "reload") {
-    localStorage.removeItem("logoAnimationShown");
+    sessionStorage.removeItem("logoAnimationShown");
     animationShown = null;
   }
 
   if (!animationShown) {
     // ✅ Первый визит — запускаем анимацию и СРАЗУ записываем флаг
-    localStorage.setItem("logoAnimationShown", "true");
+    sessionStorage.setItem("logoAnimationShown", "true");
 
     if (logoWrapper) {
       logoWrapper.classList.add("animate");
