@@ -88,13 +88,23 @@ body {
   font-size: 15px;
   padding: 6px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  color: #415167;
+  text-decoration: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.group_block_content_text:hover {
+  color: #5a00cc;
 }
 .group_block_content_text:last-child {
   border-bottom: none;
 }
-.group_block_content_text::before {
-  content: "•";
-  color: #7a00ff;
+.group_block_content_dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  background: #7a00ff;
   font-weight: bold;
   margin-right: 8px;
 }

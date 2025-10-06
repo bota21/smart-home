@@ -77,7 +77,7 @@
 .tabs_for_smart_home_item_8,
 .tabs_for_smart_home_item_9,
 .tabs_for_smart_home_item_10 {
-  padding: 7px;
+  padding: 10px 7px;
   cursor: pointer;
 }
 .tab_item_active {
@@ -198,7 +198,18 @@ footer {
   .wrapper_for_smart_home_items {
     width: 100%;
   }
-
+  .tabs_for_smart_home_item_1,
+  .tabs_for_smart_home_item_2,
+  .tabs_for_smart_home_item_3,
+  .tabs_for_smart_home_item_4,
+  .tabs_for_smart_home_item_5,
+  .tabs_for_smart_home_item_6,
+  .tabs_for_smart_home_item_7,
+  .tabs_for_smart_home_item_8,
+  .tabs_for_smart_home_item_9,
+  .tabs_for_smart_home_item_10 {
+    padding: 7px;
+  }
   .image_tab,
   .images_in_wrapper {
     width: 70%;

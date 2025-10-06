@@ -44,15 +44,15 @@
         <!-- Контейнер для открытия устройств яндекс -->
         <div class="wrapper_for_smart_home_content" data-tab="0">
           <div class="tabs_for_smart_home_items">
-            <div class="tabs_for_smart_home_item_1" data-tab="00">Яндекс станция Макс</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="01">Яндекс станция Дуо Макс</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="02">Яндекс станция Миди</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="03">Яндекс станция Мини 3 Про</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="04">Яндекс станция Мини 3</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="05">Яндекс станция Лайт 2</div>
+            <div class="tabs_for_smart_home_item_1" id="max" data-tab="00">Яндекс станция Макс</div>
+            <div class="tabs_for_smart_home_item_1" id="duo" data-tab="01">Яндекс станция Дуо Макс</div>
+            <div class="tabs_for_smart_home_item_1" id="midi" data-tab="02">Яндекс станция Миди</div>
+            <div class="tabs_for_smart_home_item_1" id="mini3_pro" data-tab="03">Яндекс станция Мини 3 Про</div>
+            <div class="tabs_for_smart_home_item_1" id="mini3" data-tab="04">Яндекс станция Мини 3</div>
+            <div class="tabs_for_smart_home_item_1" id="lite2" data-tab="05">Яндекс станция Лайт 2</div>
             <div class="tabs_for_smart_home_item_1" data-tab="06">Яндекс ТВ про 140см</div>
             <div class="tabs_for_smart_home_item_1" data-tab="07">Яндекс ТВ 165см</div>
-            <div class="tabs_for_smart_home_item_1" data-tab="08">Пульт ДУ Яндекс YNDX-0006</div>
+            <div class="tabs_for_smart_home_item_1" id="remote" data-tab="08">Пульт ДУ Яндекс YNDX-0006</div>
             <div class="tabs_for_smart_home_item_1" data-tab="09">Яндекс центр управления YNDX-00510</div>
             <div class="tabs_for_smart_home_item_1" data-tab="010">Центр умного дома Aqara Hub M2</div>
             <div class="tabs_for_smart_home_item_1" data-tab="011">Центр умного дома Aqara Hub M3 EU</div>
@@ -363,35 +363,37 @@
         <!-- Контейнер для открытия устройств датчиков -->
         <div class="wrapper_for_smart_home_content" data-tab="1">
           <div class="tabs_for_smart_home_items">
-            <div class="tabs_for_smart_home_item_2" data-tab="10">Датчик вибрации</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_vibration" data-tab="10">Датчик вибрации</div>
             <div class="tabs_for_smart_home_item_2" data-tab="11">Датчик открытия дверей</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="12">Датчик открытия дверей Яндекс</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_open" data-tab="12">Датчик открытия дверей Яндекс</div>
             <div class="tabs_for_smart_home_item_2" data-tab="13">Датчик освещённости Aqara T1 GZCGQ11LM</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="14">
+            <div class="tabs_for_smart_home_item_2" id="sensor_presence" data-tab="14">
               Датчик присутствия Aqara Human Presence Sensor FP1
             </div>
             <div class="tabs_for_smart_home_item_2" data-tab="15">Датчик присутствия Aqara Presence Sensor FP2</div>
             <div class="tabs_for_smart_home_item_2" data-tab="16">Датчик присутствия и освещенности ROXIMO SWHPS08</div>
             <div class="tabs_for_smart_home_item_2" data-tab="17">Датчик присутствия 24G Zigbee</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="18">Датчик движения Яндекс</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_move" data-tab="18">Датчик движения Яндекс</div>
             <div class="tabs_for_smart_home_item_2" data-tab="19">Датчик движения Aqara Motion Sensor P1 MS-S02</div>
             <div class="tabs_for_smart_home_item_2" data-tab="110">Датчик движения SBER</div>
             <div class="tabs_for_smart_home_item_2" data-tab="111">Датчик движения eWeLink</div>
             <div class="tabs_for_smart_home_item_2" data-tab="112">Датчик температуры и влажности Яндекс</div>
             <div class="tabs_for_smart_home_item_2" data-tab="113">Датчик температуры и влажности (монитор)</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="114">Датчик температуры и влажности Kojimo</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_temperature" data-tab="114">
+              Датчик температуры и влажности Kojimo
+            </div>
             <div class="tabs_for_smart_home_item_2" data-tab="115">Датчик температуры и влажности Sonoff SNZB-02D</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="116">
+            <div class="tabs_for_smart_home_item_2" id="sensor_air" data-tab="116">
               Датчик качества воздуха Aqara TVOC Air Quality Monitor
             </div>
-            <div class="tabs_for_smart_home_item_2" data-tab="117">Датчик протечки воды Яндекс</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_water" data-tab="117">Датчик протечки воды Яндекс</div>
             <div class="tabs_for_smart_home_item_2" data-tab="118">Датчик протечки воды Sonoff</div>
             <div class="tabs_for_smart_home_item_2" data-tab="119">Датчик протечки Aqara Water Leak Sensor T1</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="1110">Детектор газа Aqara</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_gas" data-tab="1110">Детектор газа Aqara</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1111">Детектор газа (CH4) SmartLife</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1112">Датчик газа (метан) GS SGMHM-I1</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1113">Датчик газа (пропан) GS SGPHM-I1</div>
-            <div class="tabs_for_smart_home_item_2" data-tab="1114">Датчик дыма SmartLife</div>
+            <div class="tabs_for_smart_home_item_2" id="sensor_smoke" data-tab="1114">Датчик дыма SmartLife</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1115">Датчик дыма Aqara</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1116">Датчик дыма Tuya</div>
             <div class="tabs_for_smart_home_item_2" data-tab="1117">Сирена для умного дома GS SRHMP-I1</div>
@@ -1051,7 +1053,7 @@
             <div class="tabs_for_smart_home_item_3" data-tab="20">Выключатель сенсорный</div>
             <div class="tabs_for_smart_home_item_3" data-tab="21">Выключатель сенсорный 2х</div>
             <div class="tabs_for_smart_home_item_3" data-tab="22">Выключатель сенсорный 3х</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="23">Выключатель ROXIMO 1кл</div>
+            <div class="tabs_for_smart_home_item_3" id="switch" data-tab="23">Выключатель ROXIMO 1кл</div>
             <div class="tabs_for_smart_home_item_3" data-tab="24">Выключатель ROXIMO 2кл</div>
             <div class="tabs_for_smart_home_item_3" data-tab="25">Выключатель ROXIMO 3кл</div>
             <div class="tabs_for_smart_home_item_3" data-tab="26">Выключатель для роллштор сенсорный</div>
@@ -1061,13 +1063,15 @@
             <div class="tabs_for_smart_home_item_3" data-tab="210">Диммер стеклянный</div>
             <div class="tabs_for_smart_home_item_3" data-tab="211">Умный диммер Яндекс</div>
             <div class="tabs_for_smart_home_item_3" data-tab="212">Реле для диммера ZigBee с Алисой, 2 линии</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="213">Розетка накладная Яндекс</div>
+            <div class="tabs_for_smart_home_item_3" id="socket_yandex" data-tab="213">Розетка накладная Яндекс</div>
             <div class="tabs_for_smart_home_item_3" data-tab="214">Умная розетка Tuya</div>
             <div class="tabs_for_smart_home_item_3" data-tab="215">Умная розетка ROXIMO</div>
             <div class="tabs_for_smart_home_item_3" data-tab="216">Умная розетка SmartLife</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="217">Реле одноканальное Яндекс</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="218">Реле двуканальное Яндекс</div>
-            <div class="tabs_for_smart_home_item_3" data-tab="219">Яндекс умная беспроводная кнопка YNDX-00524</div>
+            <div class="tabs_for_smart_home_item_3 m_font_size_10" data-tab="217">Реле одноканальное Яндекс</div>
+            <div class="tabs_for_smart_home_item_3 m_font_size_10" data-tab="218">Реле двуканальное Яндекс</div>
+            <div class="tabs_for_smart_home_item_3 m_font_size_10" id="button" data-tab="219">
+              Яндекс умная беспроводная кнопка YNDX-00524
+            </div>
             <div class="tabs_for_smart_home_item_3" data-tab="2110">Умный автомат ZigBee на Din рейку 63А</div>
             <div class="tabs_for_smart_home_item_3" data-tab="2111">Умный автомат 1P 40A</div>
             <div class="tabs_for_smart_home_item_3" data-tab="2112">Умный автомат Moes 16A</div>
@@ -1645,12 +1649,12 @@
         <!-- Контейнер для открытия устройств свет -->
         <div class="wrapper_for_smart_home_content" data-tab="3">
           <div class="tabs_for_smart_home_items">
-            <div class="tabs_for_smart_home_item_4" data-tab="30">Светодиодная лента Яндекс 3м</div>
+            <div class="tabs_for_smart_home_item_4" id="led_strip" data-tab="30">Светодиодная лента Яндекс 3м</div>
             <div class="tabs_for_smart_home_item_4" data-tab="31">Удлинитель для светодиодная лента Яндекс</div>
             <div class="tabs_for_smart_home_item_4" data-tab="32">Светодиодная лента KOJIMA 5м</div>
             <div class="tabs_for_smart_home_item_4" data-tab="33">Гирлянда ROXIMO SFCL01-L</div>
             <div class="tabs_for_smart_home_item_4" data-tab="34">Cветильник потолочный Aqara Ceiling Light T1M</div>
-            <div class="tabs_for_smart_home_item_4" data-tab="35">Умный светильник RGB с Wi-Fi 6W</div>
+            <div class="tabs_for_smart_home_item_4" id="light_night" data-tab="35">Умный светильник RGB с Wi-Fi 6W</div>
             <div class="tabs_for_smart_home_item_4" data-tab="36">Диммер для светодиодной ленты 12,24V 15А</div>
             <div class="tabs_for_smart_home_item_4" data-tab="37">Контроллер RGB для LED лент 12В, 24В</div>
             <div class="tabs_for_smart_home_item_4" data-tab="38">Gauss 4.5W Е14, светодиодная, теплый белый</div>
@@ -1668,7 +1672,9 @@
             <div class="tabs_for_smart_home_item_4" data-tab="3110">TP-LINK 8.7W E27, светодиодная, теплый белый</div>
             <div class="tabs_for_smart_home_item_4" data-tab="3111">Gauss 9W E27, светодиодная, естественный белый</div>
             <div class="tabs_for_smart_home_item_4" data-tab="3112">EGLO 9W E27, светодиодная, RGB</div>
-            <div class="tabs_for_smart_home_item_4" data-tab="3113">Gauss 10W E27, светодиодная, RGB</div>
+            <div class="tabs_for_smart_home_item_4" id="light_rgb" data-tab="3113">
+              Gauss 10W E27, светодиодная, RGB
+            </div>
             <div class="tabs_for_smart_home_item_4" data-tab="3114">Gauss 11W E27, светодиодная, холодный белый</div>
             <div class="tabs_for_smart_home_item_4" data-tab="3115">
               Gauss 5W GU5.3, светодиодная, нейтральный белый
@@ -2060,67 +2066,107 @@
             <div class="tabs_for_smart_home_item_5" data-tab="41">Карниз умный Tuya 5м</div>
             <div class="tabs_for_smart_home_item_5" data-tab="42">Карниз умный Tuya 6м</div>
             <div class="tabs_for_smart_home_item_5" data-tab="43">Карниз умный Tuya 7м</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="44">Электрокарниз Aqara до 1м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="45">Электрокарниз Aqara до 2,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="46">Электрокарниз Aqara до 3,2м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="47">Электрокарниз Aqara до 4,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="48">Электрокарниз Aqara до 5,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="49">Электрокарниз Aqara до 6,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="410">Электрокарниз Aqara до 7,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="411">Электрокарниз Aqara до 8,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="412">Электрокарниз Aqara до 9,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="413">Электрокарниз Aqara до 10,15м (мотор+карниз)</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="414">Умный электрокарниз для штор ROXIMO 1,6 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="415">Умный электрокарниз для штор ROXIMO 2 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="416">Умный электрокарниз для штор ROXIMO 2,4 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="417">Умный электрокарниз для штор ROXIMO 2,9 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="418">Умный электрокарниз для штор ROXIMO 3 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="419">Умный электрокарниз для штор ROXIMO 3,2 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4110">Умный электрокарниз для штор ROXIMO 3,5 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4111">Умный электрокарниз для штор ROXIMO 4 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4112">Умный электрокарниз для штор ROXIMO 5 метра</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4113">Умный электрокарниз для штор ROXIMO 6 метра</div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="44">
+              Электро-карниз Aqara до 1м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="45">
+              Электро-карниз Aqara до 2,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="46">
+              Электро-карниз Aqara до 3,2м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="47">
+              Электро-карниз Aqara до 4,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="48">
+              Электро-карниз Aqara до 5,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="49">
+              Электро-карниз Aqara до 6,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="410">
+              Электро-карниз Aqara до 7,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="411">
+              Электро-карниз Aqara до 8,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="412">
+              Электро-карниз Aqara до 9,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="413">
+              Электро-карниз Aqara до 10,15м (мотор+карниз)
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="414">
+              Умный электро-карниз для штор ROXIMO 1,6 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="415 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 2 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="416 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 2,4 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="417 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 2,9 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="418 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 3 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="419 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 3,2 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4110 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 3,5 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4111 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 4 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4112 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 5 метра
+            </div>
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4113 m_font_size_10">
+              Умный электро-карниз для штор ROXIMO 6 метра
+            </div>
             <div class="tabs_for_smart_home_item_5" data-tab="4114">Карниз для роллштор 59см</div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4115">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4115">
               Мотор для рулонных штор Aqara Curtain Rolling Shutter Motor
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4116">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4116">
               Автоматические рулонные шторы Aqara 65-120см (с мотором без ткани)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4117">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4117">
               Автоматические рулонные шторы Aqara 121-140см (с мотором без ткани)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4118">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4118">
               Автоматические рулонные шторы Aqara 201-220см (с мотором без ткани)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="4119">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="4119">
               Автоматические рулонные шторы Aqara 221-240см (с мотором без ткани)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41110">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41110">
               Автоматические рулонные шторы Aqara 241-260см (с мотором без ткани)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41111">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41111">
               Римские шторы Aqara roller shade (с мотором) 100см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41112">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41112">
               Римские шторы Aqara roller shade (с мотором) 101-120см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41113">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41113">
               Римские шторы Aqara roller shade (с мотором) 121-140см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41114">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41114">
               Римские шторы Aqara roller shade (с мотором) 141-160см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41115">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41115">
               Римские шторы Aqara roller shade (с мотором) 161-180см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41116">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41116">
               Римские шторы Aqara roller shade (с мотором) 181-200см
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41117">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41117">
               Мотор раздвижных штор Aqara Curtain Driver E1 (Track Version)
             </div>
-            <div class="tabs_for_smart_home_item_5" data-tab="41118">
+            <div class="tabs_for_smart_home_item_5 m_font_size_10" data-tab="41118">
               Мотор раздвижных штор Aqara Curtain Driver E1 (Rod Version)
             </div>
             <div class="tabs_for_smart_home_item_5" data-tab="41119">Мотор для роллштор</div>
@@ -3495,37 +3541,41 @@
         <div class="wrapper_for_smart_home_content" data-tab="5">
           <div class="tabs_for_smart_home_items">
             <div class="tabs_for_smart_home_item_6" data-tab="50">Привод для перекрытия воды Aqara</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="51">Привод для перекрытия воды</div>
+            <div class="tabs_for_smart_home_item_6" id="close_water" data-tab="51">Привод для перекрытия воды</div>
             <div class="tabs_for_smart_home_item_6" data-tab="52">Умный шаровый клапан DN25 1"</div>
             <div class="tabs_for_smart_home_item_6" data-tab="53">Умный шаровый клапан DN20 3/4"</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="54">Радиаторный терморегулятор Aqara</div>
+            <div class="tabs_for_smart_home_item_6" id="control_heater" data-tab="54">
+              Радиаторный термо-регулятор Aqara
+            </div>
             <div class="tabs_for_smart_home_item_6" data-tab="55">
-              Терморегулятор для радиатора отопления Beok c Wi-Fi
+              Термо-регулятор для радиатора отопления Beok c Wi-Fi
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="56">Умный терморегулятор Electsmart черный</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="57">Умный терморегулятор Welrok светлый</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="58">Умный терморегулятор Celtic светлый</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="59">Умный терморегулятор Celtic черный</div>
+            <div class="tabs_for_smart_home_item_6" data-tab="56">Умный термо-регулятор Electsmart черный</div>
+            <div class="tabs_for_smart_home_item_6" id="control_floor" data-tab="57">
+              Умный термо-регулятор Welrok светлый
+            </div>
+            <div class="tabs_for_smart_home_item_6" data-tab="58">Умный термо-регулятор Celtic светлый</div>
+            <div class="tabs_for_smart_home_item_6" data-tab="59">Умный термо-регулятор Celtic черный</div>
             <div class="tabs_for_smart_home_item_6" data-tab="510">Модуль управления котлом Wi-Fi Federica Bugatti</div>
-            <div class="tabs_for_smart_home_item_6" data-tab="511">
-              Терморегулятор Beok для газового и электрического котла черный
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="511">
+              Термо-регулятор Beok для газового и электрического котла черный
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="512">
-              Терморегулятор Beok для газового и электрического котла белый
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="512">
+              Термо-регулятор Beok для газового и электрического котла белый
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="513">
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="513">
               Электрический настенный котел THERMEX Sonne 12 Wi-Fi Grey
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="514">
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="514">
               Электрический двухконтурный котел THERMEX Cometa 12-24 Wi-Fi
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="515">
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="515">
               Электрический настенный котел THERMEX Boss 12 Wi-Fi White
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="516">
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="516">
               Электрический настенный котел THERMEX Sonne 12 Wi-Fi White
             </div>
-            <div class="tabs_for_smart_home_item_6" data-tab="517">
+            <div class="tabs_for_smart_home_item_6 m_font_size_10" data-tab="517">
               Отопительный термостат ZONT GSM Wi-Fi H-1V NEW для котлов
             </div>
           </div>
@@ -3989,7 +4039,7 @@
         <div class="wrapper_for_smart_home_content" data-tab="6">
           <div class="tabs_for_smart_home_items">
             <div class="tabs_for_smart_home_item_7" data-tab="60">Увлажнитель воздуха Xiaomi 4.5 л</div>
-            <div class="tabs_for_smart_home_item_7" data-tab="61">Увлажнитель воздуха Xiaomi 5 л</div>
+            <div class="tabs_for_smart_home_item_7" id="humidifier" data-tab="61">Увлажнитель воздуха Xiaomi 5 л</div>
             <div class="tabs_for_smart_home_item_7" data-tab="62">Увлажнитель воздуха Xiaomi 4 л</div>
             <div class="tabs_for_smart_home_item_7" data-tab="63">Увлажнитель воздуха Xiaomi 3 л</div>
             <div class="tabs_for_smart_home_item_7" data-tab="64">Очиститель воздуха Aminix</div>
@@ -3999,7 +4049,9 @@
             <div class="tabs_for_smart_home_item_7" data-tab="66">
               Очиститель воздуха Xiaomi Smart Air Purifier 5 Pro AC-M27-SC белый
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="67">Очиститель воздуха Rawmid RMP-01</div>
+            <div class="tabs_for_smart_home_item_7" id="air_purifier" data-tab="67">
+              Очиститель воздуха Rawmid RMP-01
+            </div>
             <div class="tabs_for_smart_home_item_7" data-tab="68">
               Кондиционер Samsung WindFree AI cooling + Filter 25 кв.м
             </div>
@@ -4021,29 +4073,33 @@
               Робот-пылесос DREAME Robot Vacuum D20 Ultra белый
             </div>
             <div class="tabs_for_smart_home_item_7" data-tab="6110">Робот-пылесос DREAME X50 Ultra Complete белый</div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6111">Автокормушка Aqara C1 PETC1-M01 400 мл белый</div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6112">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" id="pet_feeder" data-tab="6111">
+              Автокормушка Aqara C1 PETC1-M01 400 мл белый
+            </div>
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="6112">
               Автоматическая кормушка Xiaomi для кошек и собак
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6113">Автопоилка Xiaomi Smart Pet Water Dispenser 3л</div>
+            <div class="tabs_for_smart_home_item_7" id="pet_water" data-tab="6113">
+              Автопоилка Xiaomi Smart Pet Water Dispenser 3л
+            </div>
             <div class="tabs_for_smart_home_item_7" data-tab="6114">Умное мусорное ведро Xiaomi Smart Trash Can T1</div>
             <div class="tabs_for_smart_home_item_7" data-tab="6115">Умное мусорное ведро Xiaomi Smart Trash Can T3</div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6116">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="6116">
               Сменные пакеты для Xiaomi Townew Smart Trash Can T1 150 шт
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6117">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="6117">
               Сменные картриджи с пакетами для Xiaomi TowNew Smart Trash T3 150 шт
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6118">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="6118">
               Умное зеркало с RGB - подсветкой, подогревом и часами, 85см., круглое.
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="6119">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="6119">
               Умное зеркало с RGB - подсветкой, подогревом и часами, 80х80см., квадрат.
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="61110">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="61110">
               Умное зеркало с RGB - подсветкой, подогревом и часами, 80х50см., прямоугольник.
             </div>
-            <div class="tabs_for_smart_home_item_7" data-tab="61111">
+            <div class="tabs_for_smart_home_item_7 m_font_size_10" data-tab="61111">
               Умное зеркало с RGB - подсветкой, подогревом и часами, 90х40см., овал.
             </div>
           </div>
@@ -4999,8 +5055,10 @@
         <!-- Контейнер для открытия устройств камера -->
         <div class="wrapper_for_smart_home_content" data-tab="7">
           <div class="tabs_for_smart_home_items">
-            <div class="tabs_for_smart_home_item_8" data-tab="70">Камера видеонаблюдения YNDX-00582GRY</div>
-            <div class="tabs_for_smart_home_item_8" data-tab="71">Умная камера уличная ROXIMO</div>
+            <div class="tabs_for_smart_home_item_8 m_font_size_10" id="camera_yandex" data-tab="70">
+              Камера видео наблюдения YNDX-00582GRY
+            </div>
+            <div class="tabs_for_smart_home_item_8" id="camera_street" data-tab="71">Умная камера уличная ROXIMO</div>
             <div class="tabs_for_smart_home_item_8" data-tab="72">Умная поворотная камера RHC201</div>
             <div class="tabs_for_smart_home_item_8" data-tab="73">Умная камера RHC106-WL3</div>
             <div class="tabs_for_smart_home_item_8" data-tab="74">Умная камера RHC201 с адаптером питания E27</div>
@@ -5025,7 +5083,7 @@
                 </p>
 
                 <p>Интерфейсы: USB, Wi-Fi, поддержка карт памяти microSD.</p>
-                <p>>Особенности: детектор движения, приватный режим, степень защиты IP20.</p>
+                <p>Особенности: детектор движения, приватный режим, степень защиты IP20.</p>
                 <p>
                   Дополнительные функции: встроенный микрофон, стриминг видео на смартфон, голосовое управление через
                   Яндекс Станцию.
@@ -5204,13 +5262,19 @@
         <!-- Контейнер для открытия устройств для дверей и окон -->
         <div class="wrapper_for_smart_home_content" data-tab="8">
           <div class="tabs_for_smart_home_items">
-            <div class="tabs_for_smart_home_item_9" data-tab="80">Замок Xiaomi электромеханический XMZNMST10LK</div>
-            <div class="tabs_for_smart_home_item_9" data-tab="81">
+            <div class="tabs_for_smart_home_item_9 m_font_size_10" data-tab="80">
+              Замок Xiaomi электро механический XMZNMST10LK
+            </div>
+            <div class="tabs_for_smart_home_item_9 m_font_size_10" data-tab="81">
               Умный дверной замок Smart Door Lock E30 (XMZNMST11LK) CN
             </div>
             <div class="tabs_for_smart_home_item_9" data-tab="82">Замок Aqara A100 ZNMMS02ES</div>
-            <div class="tabs_for_smart_home_item_9" data-tab="83">Замок Aqara электромеханический Door Lock D100</div>
-            <div class="tabs_for_smart_home_item_9" data-tab="84">Замок Aqara электромеханический Door Lock N100</div>
+            <div class="tabs_for_smart_home_item_9 m_font_size_10" data-tab="83">
+              Замок Aqara электро механический Door Lock D100
+            </div>
+            <div class="tabs_for_smart_home_item_9 m_font_size_10" data-tab="84">
+              Замок Aqara электро механический Door Lock N100
+            </div>
             <div class="tabs_for_smart_home_item_9" data-tab="85">Умный открыватель окна RoboArm</div>
           </div>
           <div class="wrapper_for_smart_home_items">
