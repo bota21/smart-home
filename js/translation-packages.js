@@ -1,6 +1,6 @@
 const translations = {
   kz: {
-    Feedback: "Кері байланыс",
+    Feedback: "Байланыс",
     Security: "Қауіпсіздік",
     Home_security: "Үй қауіпсіздігі",
     Smart_station_Alice: "Алиса ақылды динамигі",
@@ -41,7 +41,7 @@ const translations = {
     Smart_feeder: "Ақылды тамақтандырғыш",
     Smart_drinking_bowl: "Ақылды су ішетін ыдыс",
     Sensor_presence: "Қатысу сенсоры",
-    Back: "Артқа",
+    Back: "Басты бетке",
   },
   ru: {
     Feedback: "Обратная связь",
@@ -85,7 +85,7 @@ const translations = {
     Smart_feeder: "Умная кормушка",
     Smart_drinking_bowl: "Умная поилка",
     Sensor_presence: "Датчик присутствия",
-    Back: "Назад",
+    Back: "На главную страницу",
   },
   en: {
     Feedback: "Feedback",
@@ -129,6 +129,6 @@ const translations = {
     Smart_feeder: "Smart Feeder",
     Smart_drinking_bowl: "Smart Drinking Bowl",
     Sensor_presence: "Presence Sensor",
-    Back: "Back",
+    Back: "To the main page",
   },
 };

@@ -1,6 +1,6 @@
 const translations = {
   kz: {
-    Feedback: "Кері байланыс",
+    Feedback: "Байланыс",
     Month_header_title: "Ай сайын қамқорлықпен",
     Month_header_text:
       "Бұл — сіздің ақылды үйіңізге арналған тұрақты қызмет көрсетуге арналған ай сайынғы жазылым. Біз барлық ұсақ, бірақ маңызды тапсырмаларды өз мойнымызға аламыз, сонда техника үнемі үздіксіз жұмыс істейді, ал сіз жайлылық пен ыңғайлылықты сезінесіз.",
@@ -21,7 +21,7 @@ const translations = {
     One_time_installing_smart_cornice: "Ақылды карниз орнату",
     tenge: "₸",
     One_time_footer: "Қызмет шеңберінде қажетті сценарийлерді орнатамыз — қосымша шығындарсыз",
-    Back: "Артқа",
+    Back: "Басты бетке",
   },
   ru: {
     Feedback: "Обратная связь",
@@ -45,7 +45,7 @@ const translations = {
     One_time_installing_smart_cornice: "Установка умного карниза",
     tenge: "₸",
     One_time_footer: "Мы настроим нужные сценарии в рамках услуги — без дополнительных расходов",
-    Back: "Назад",
+    Back: "На главную страницу",
   },
   en: {
     Feedback: "Feedback",
@@ -69,6 +69,6 @@ const translations = {
     One_time_installing_smart_cornice: "Smart curtain rail installation",
     tenge: "₸",
     One_time_footer: "We will set up the necessary automation as part of the service — with no extra charges",
-    Back: "Back",
+    Back: "To the main page",
   },
 };
