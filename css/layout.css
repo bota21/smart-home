@@ -31,6 +31,26 @@ header {
   align-items: end;
   font-weight: 600;
 }
+.lang-switcher {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+.lang-switcher-button {
+  background: none;
+  border: 1px solid #ccc;
+  margin-left: 5px;
+  padding: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.lang-switcher button:hover {
+  background: #eee;
+}
+.lang-switcher-button.active {
+  background: #eee;
+}
 .header_wrapper_contacts {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,6 +129,14 @@ footer {
   }
   header {
     padding: 10px 10px 0px 10px;
+  }
+  .lang-switcher {
+    top: 15px;
+    right: 65px;
+  }
+  .lang-switcher button {
+    font-size: 12px;
+    padding: 2px;
   }
   .header_wrapper_contacts {
     font-size: 10px;

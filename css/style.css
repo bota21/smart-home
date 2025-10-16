@@ -22,7 +22,8 @@ header {
   filter: blur(0);
 }
 
-.main_content.animate {
+.main_content.animate,
+.lang-switcher.animate {
   animation: contentWrapper 7s ease-in-out forwards; /* ✅ запускается только при первом заходе */
 }
 
