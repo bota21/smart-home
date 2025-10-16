@@ -43,13 +43,16 @@ header {
   padding: 4px;
   cursor: pointer;
   border-radius: 4px;
+  color: #eee;
 }
 
 .lang-switcher button:hover {
   background: #eee;
+  color: #415167;
 }
 .lang-switcher-button.active {
   background: #eee;
+  color: #415167;
 }
 .header_wrapper_contacts {
   display: -webkit-box;
