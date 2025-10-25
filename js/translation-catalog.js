@@ -229,18 +229,23 @@ const translations = {
       "Сирена әртүрлі датчиктер іске қосылғанда дыбыстық ескерту беру үшін арналған. Уақытында хабарлау үйде болатын төтенше жағдайларға жедел жауап беруге мүмкіндік береді. Тұрғын және кеңсе ортасында қолдануға жарамды. Электр өшірілгенде де жұмыс істейді.",
     Siren_text_2:
       "Техникалық сипаттамалары: Қуат көзі: 100‑240 В / 50‑60 Гц. Аккумулятор: 3,7 В / 720 мА. Дыбыс деңгейі: 95 дБ (1 м қашықтықта).",
-    Switch_touch_1x: "Сенсорлы қосқыш 1х",
-    Switch_touch_2x: "Сенсорлы қосқыш 2х",
-    Switch_touch_3x: "Сенсорлы қосқыш 3х",
-    Switch_keyboard_1x: "ROXIMO қосқышы 1 кілт",
-    Switch_keyboard_2x: "ROXIMO қосқышы 2 кілт",
-    Switch_keyboard_3x: "ROXIMO қосқышы 3 кілт",
+    Switch_Bseed_1x: "Сенсорлы қосқыш 1х",
+    Switch_Bseed_2x: "Сенсорлы қосқыш 2х",
+    Switch_Bseed_3x: "Сенсорлы қосқыш 3х",
+    Switch_Roximo_1x: "ROXIMO қосқышы 1 кілт",
+    Switch_Roximo_2x: "ROXIMO қосқышы 2 кілт",
+    Switch_Roximo_3x: "ROXIMO қосқышы 3 кілт",
+    Switch_Aqara_1x: "Aqara 1x батырмалы қосқышы",
+    Switch_Aqara_2x: "Aqara 2x батырмалы қосқышы",
+    Switch_Aqara_3x: "Aqara 3x батырмалы қосқышы",
+    Switch_Aqara_4x: "Aqara 4x батырмалы қосқышы",
     Switch_roller_touch: "Роллшторларды басқару сенсорлы қосқыш",
     Socket_buildIn_1x: "Ішке кірістірілген розетка 1х",
     Socket_buildIn_2x: "Ішке кірістірілген розетка 2х",
     Socket_buildIn_3x: "Ішке кірістірілген розетка 3х",
-    Dimmer_touch: "Стеклянный диммер (сенсорлы диммер)",
+    Dimmer_Bseed: "Стеклянный диммер (сенсорлы диммер)",
     Dimmer_Yandex: "Яндекс ақылды диммер",
+    Dimmer_Aqara: "Aqara айналмалы диммері",
     Relay_dimmer: "ZigBee диммер реле, 2 арна",
     Slug_Yandex: "Яндекс ақылды розетка",
     Slug_Tuya: "Tuya ақылды розетка",
@@ -253,24 +258,36 @@ const translations = {
     Smart_Din_40A: "DIN рельді ақылды автомат 40А",
     Smart_Din_Moes_16A: "Moes ақылды автомат 16А",
     Smart_Din_Tuya_63A: "Tuya ақылды автомат 63А",
-    Smart_Din_Tuya_80A: "Tuya ақылды автомат 80А",
-    Switch_touch_text:
+    Switch_Bseed_text:
       "Ақылды қосқыш жарықтандыруды өзгерту немесе сымдарды ауыстыруды қажет етпейді, қосымша арқылы қашықтан өшіруге, уақыт бойынша немесе таймер бойынша басқаруға, сондай‑ақ Яндекс станциясы арқылы дауыстық басқаруға мүмкіндік береді.",
-    Switch_touch_color_text: "(түс: ақ, алтын, сұр, қара)",
-    Switch_keyboard_text_1:
+    Switch_Bseed_color_text: "(түс: ақ, алтын, сұр, қара)",
+    Switch_Roximo_text_1:
       "Қосқыш корпусы стандартты монтаж қораптарына сәйкес өлшемде. Беткі панелі жоғары сапалы пластиктен жасалған, басқару батырмалары мен LED индикаторлары орналастырылған.",
-    Switch_keyboard_text_2:
+    Switch_Roximo_text_2:
       "Zigbee арқылы тікелей Яндекс‑ке қосу — Roximo құрылғыларын Яндекс Станциясы немесе Zigbee‑қолдайтын хабқа тікелей жалғаңыз.",
-    Switch_keyboard_color_text: "(түс: ақ, алтын, қола, сұр, платина, қара)",
+    Switch_Roximo_color_text: "(түс: ақ, алтын, қола, сұр, платина, қара)",
+    Switch_Aqara_text_1:
+      "Aqara ақылды қосқышы – тек жарықты қосып қана қоймай, үйіңізді ақылды ететін құрылғы. Ішіне орнатылған сенсорлы панель арқылы ақылды шамдарды диммирлеуге, перделерді басқаруға, жарықтың ашықтығы мен түсін реттеуге болады.",
+    Switch_Aqara_text_2:
+      "Келесі шам түрлеріне жарамды: қыздыру шамдары, энергия үнемдейтін, жарықдиодты және люминесцентті шамдар.",
+    Switch_Aqara_text_3: "Қимылдарды қолдайды: бір рет басу, екі рет басу, ұстап тұру және сырғыту.",
+    Switch_Aqara_text_4:
+      "Aqara Home қолданбасында бір қосқыштың батырмасын екіншісімен байланыстыруға болады. Мысалы, бөлмедегі Aqara Z1 Pro арқылы дәліздегі жарықты басқаруға болады.",
+    Switch_Aqara_text_5:
+      "Aqara Home қолданбасында құрылғы картасында «Түймені баптау» опциясы бар, ол батырманы логикалық режимге ауыстырады. Бұл жарықты механикалық басқаруды өшіріп, батырманы автоматизацияға, мысалы, перделерді ашуға байланыстыруға мүмкіндік береді.",
     Switch_roller_touch_text:
       "Ақылды WiFi перде басқару қосқышы электрокарниздерді, роллшторларды немесе рольшторларды басқаруға арналған. Құрылғыны дәстүрлі қосқыш орнына орнатып, мобильді қосымша арқылы басқаруға болады.",
     Socket_buildIn_text:
       "Онымен: үтікті немесе плойканы қашықтан өшіруге, үйге келгенде қыздырғышты немесе кондиционерді қосуға, өсімдіктерге немесе аквариумға жарық кестесін орнатуға, дауыспен гирлянданы қосуға және т.б. Энергомониторинг функциясы арқылы қосымшада құрылғылардың қуатын қадағалаңыз.",
     Socket_buildIn_color_text: "(түс: ақ, алтын, сұр, қара)",
-    Dimmer_touch_text:
+    Dimmer_Bseed_text:
       "Ақылды диммер — жарықтық деңгейін мобильді қосымша немесе құрылғыдағы сенсор арқылы реттеуге арналған керемет шешім.",
     Dimmer_Yandex_text:
       "Яндекс ақылды диммер үй жарығын қалауыңызша реттеуге көмектеседі: жарықты жарқырағаннан жұмсаққа дейін басқаруға болады. Тек диммерлі шамдармен жұмыс істейді, стандартты подрозеткке орнатылады және нейтралмен қосылады.",
+    Dimmer_Aqara_text_1:
+      "H2 қабырғалық диммері – тек жарықты қосып немесе өшіріп қана қоймай, оның жарықтығын дәл және бірқалыпты реттеуге мүмкіндік беретін ақылды құрылғы. Айналмалы батырма арқылы жарықты өз көңіл-күйіңіз бен қажеттіліктеріңізге сай оңай баптауға болады.",
+    Dimmer_Aqara_text_2:
+      "Қабырғалық диммер бейтарап сыммен де, онсыз да жұмыс істей алады. Ол әртүрлі шам түрлерімен үйлесімді: қыздыру, галоген, диммирленетін жарықдиодты және ықшам люминесцентті (CFL) шамдармен. Ол тікелей қыздыру шамдарын, диммирленетін жарықдиодты шамдарды, галоген шамдарын, люминесцентті шамдарды және ELV құрылғыларын реттей алады, жарықтылықты 1% дәлдікпен бірқалыпты өзгертуге мүмкіндік береді.",
     Relay_dimmer_text:
       "Zigbee диммер реле — бұл Умный Дом жүйелеріне арналған инновациялық құрылғы, жарықты қосқыш және қосымша арқылы басқаруға мүмкіндік береді. Мини корпусында монтаж қораптарына сай келеді.",
     Slug_Yandex_text:
@@ -304,14 +321,6 @@ const translations = {
     Smart_Din_Tuya_63A_text_4: "Автоматты қосу/өшіру үшін апталық/күндік кесте.",
     Smart_Din_Tuya_63A_text_5: "Кері санау таймері.",
     Smart_Din_Tuya_63A_text_6: "Кесте бойынша әрекет жүзеге асқанда телефонға push хабарлама.",
-    Smart_Din_Tuya_80A_text_1:
-      "Zigbee автомат — жарықты және электр құрылғыларын басқаруға арналған мінсіз шешім. Қорғалған және сенімді.",
-    Smart_Din_Tuya_80A_text_2:
-      "Қашықтан қосу/өшіру, сценарийлер, таймер, push хабарламалар, қысқа тұйықталуға және шамадан тыс жүктелуге қарсы қорғау.",
-    Smart_Din_Tuya_80A_text_3: "Жиынтығы:",
-    Smart_Din_Tuya_80A_text_4: "Автомат – 1 дана",
-    Smart_Din_Tuya_80A_text_5: "Антенна – 1 дана",
-    Smart_Din_Tuya_80A_text_6: "Нұсқаулық",
     "LED-Strip_Yandex": "Яндекс жарықдиодты лентасы 3м",
     "Cable_LED-Strip_Yandex": "Яндекс жарықдиодты лентасына арналған ұзарғыш",
     "LED-Strip_Kojimo": "KOJIMA жарықдиодты лентасы 5м",
@@ -1210,18 +1219,23 @@ const translations = {
       "Сирена предназначена для звукового оповещения при срабатывании различных датчиков в домохозяйстве пользователя. Своевременное оповещение дает возможность оперативно среагировать на нештатную ситуацию в доме. Подходит для использования в жилых и офисных помещениях. Работает даже при отключении электроэнергии.",
     Siren_text_2:
       "Технические характеристики и параметры: Напряжение питания: 100-240 В / 50-60 Гц Аккумуляторная батарея: 3,7 В/ 720 мА Уровень звука: 95 дБ (на расстоянии 1 м)",
-    Switch_touch_1x: "Выключатель сенсорный",
-    Switch_touch_2x: "Выключатель сенсорный 2х",
-    Switch_touch_3x: "Выключатель сенсорный 3х",
-    Switch_keyboard_1x: "Выключатель ROXIMO 1кл",
-    Switch_keyboard_2x: "Выключатель ROXIMO 2кл",
-    Switch_keyboard_3x: "Выключатель ROXIMO 3кл",
+    Switch_Bseed_1x: "Выключатель сенсорный",
+    Switch_Bseed_2x: "Выключатель сенсорный 2х",
+    Switch_Bseed_3x: "Выключатель сенсорный 3х",
+    Switch_Roximo_1x: "Выключатель ROXIMO 1кл",
+    Switch_Roximo_2x: "Выключатель ROXIMO 2кл",
+    Switch_Roximo_3x: "Выключатель ROXIMO 3кл",
+    Switch_Aqara_1x: "Выключатель клавишный Aqara 1x",
+    Switch_Aqara_2x: "Выключатель клавишный Aqara 2x",
+    Switch_Aqara_3x: "Выключатель клавишный Aqara 3x",
+    Switch_Aqara_4x: "Выключатель клавишный Aqara 4x",
     Switch_roller_touch: "Выключатель для роллштор сенсорный",
     Socket_buildIn_1x: "Розетка встроенная",
     Socket_buildIn_2x: "Розетка встроенная 2х",
     Socket_buildIn_3x: "Розетка встроенная 3х",
-    Dimmer_touch: "Диммер стеклянный",
+    Dimmer_Bseed: "Диммер стеклянный",
     Dimmer_Yandex: "Умный диммер Яндекс",
+    Dimmer_Aqara: "Диммер Aqara поворотный",
     Relay_dimmer: "Реле для диммера ZigBee с Алисой, 2 линии",
     Slug_Yandex: "Умная розетка Яндекс",
     Slug_Tuya: "Умная розетка Tuya",
@@ -1234,24 +1248,36 @@ const translations = {
     Smart_Din_40A: "Умный автомат 1P 40A",
     Smart_Din_Moes_16A: "Умный автомат Moes 16A",
     Smart_Din_Tuya_63A: "Умный автомат Tuya 63A",
-    Smart_Din_Tuya_80A: "Умный автомат Tuya 80A",
-    Switch_touch_text:
+    Switch_Bseed_text:
       "Умный выключатель не требует модификации освещения и замены проводки, не требуется дополнительный нулевой провод. Просто замените традиционный выключатель и наслаждайтесь широким функционалом - Дистанционное выключение света через приложение, выключение в заданное время или по таймеру, а так же голосовое управление через Яндекс Станцию.",
-    Switch_touch_color_text: "(цвета: белый, золото, серый, черный)",
-    Switch_keyboard_text_1:
+    Switch_Bseed_color_text: "(цвета: белый, золото, серый, черный)",
+    Switch_Roximo_text_1:
       "Корпус выключателя имеет удобный размер для монтажа в стандартные установочные коробки. Лицевая панель изготовлена из высококачественного пластика, на ней расположены клавиши для управления и LED индикаторы состояния.",
-    Switch_keyboard_text_2:
+    Switch_Roximo_text_2:
       "Прямое подключение к Zigbee от Яндекс - подключайте устройства Roximo прямо к Станции с поддержкой Zigbee или хабу Яндекс.",
-    Switch_keyboard_color_text: "(цвета: белый, золото, бронзовый, серый, платина, черный)",
+    Switch_Roximo_color_text: "(цвета: белый, золото, бронзовый, серый, платина, черный)",
+    Switch_Aqara_text_1:
+      "Умный выключатель Aqara – выключатель, который не просто включает свет, а делает ваш дом умным. Встроенная сенсорная панель может использоваться для диммирования умных светильников, управления шторами, яркостью и цветом освещения.",
+    Switch_Aqara_text_2:
+      "Подходит для следующих типов ламп: накаливания, энергосберегающих, светодиодных, люминесцентных.",
+    Switch_Aqara_text_3: "Поддерживает жесты: однократное, двукратное касание, удержание и свайп.",
+    Switch_Aqara_text_4:
+      "Привязывайте клавиши одного выключателя к другому в приложении Aqara Home. Например, с Aqara Z1 Pro в комнате можно управлять светом в коридоре.",
+    Switch_Aqara_text_5:
+      "В приложении Aqara Home в карточке устройства есть опция «Настройка клавиш», которая переводит клавишу в логический режим. Это отключает механическое управление светом, и клавишу можно привязать к любой автоматизации, например, открытию штор.",
     Switch_roller_touch_text:
       "Умный Wi-Fi выключатель управления шторами предназначен для управления электрокарнизами штор, рулонных штор, рольставен. Используйте устройство в качестве привычного комнатного выключателя с возможностью управления приводом штор из мобильного приложения. Устройство устанавливается на место «обычного» выключателя, является беспроводным устройством Wi-Fi.",
     Socket_buildIn_text:
       "С её помощью можно: дистанционно отключить утюг или плойку, включить обогреватель или кондиционер по пути домой, настроить включение и выключение света по расписанию для растений или аквариума, включить гирлянду голосом и многое другое. Благодаря функции энергомониторинга, вы можете отслеживать в мобильном приложении, сколько энергии потребляют ваши электроприборы и какие из них работают в данный момент.",
     Socket_buildIn_color_text: "(цвета: белый, золото, серый, черный)",
-    Dimmer_touch_text:
+    Dimmer_Bseed_text:
       "Умный диммер — это идеальное решение для управления интенсивностью освещения в вашем умном доме. С помощью этого устройства вы можете легко регулировать уровень яркости подключенных световых приборов как с мобильного приложения, так и вручную, используя сенсор на лице устройства.",
     Dimmer_Yandex_text:
       "Умный диммер Яндекса поможет настроить освещение дома именно так, как вам нужно. С ним легко регулировать уровень яркости люстр и светильников с диммируемыми лампочками: от бодрящего яркого до расслабляющего приглушенного. Диммер работает только с лампочками, оснащёнными встроенной системой регулировки яркости. Устанавливается в стандартный круглый подрозетник и подключается только с нейтралью.",
+    Dimmer_Aqara_text_1:
+      " Настенный диммер H2 — умное устройство, которое не только включает и выключает свет, но и позволяет плавно регулировать его яркость с высокой точностью. Интуитивное управление с помощью поворотной кнопки позволяет легко настроить освещение под ваше настроение и потребности.",
+    Dimmer_Aqara_text_2:
+      "Настенный диммер может работать как с нейтральным проводом, так и без него. Совместим с различными типами ламп, включая лампы накаливания, галогенные, диммируемые светодиодные и компактные люминесцентные лампы (CFL).Он может напрямую регулировать лампы накаливания, диммируемые светодиодные лампы, галогенные лампы, люминесцентные светильники и ELV-устройства, обеспечивая плавное диммирование с точностью до 1%.",
     Relay_dimmer_text:
       "Умное диммер реле Zigbee - это инновационное устройство для систем Умный Дом, которое позволяет управлять различным освещением с помощью приложения на телефоне или голосовыми командами. Умное диммер реле имеет компактный мини-корпус, который легко устанавливается в большинство монтажных коробок для выключателей и розеток.",
     Slug_Yandex_text:
@@ -1285,14 +1311,6 @@ const translations = {
     Smart_Din_Tuya_63A_text_4: "Недельное/дневное расписание автоматического включения и выключения",
     Smart_Din_Tuya_63A_text_5: "Таймер обратного отсчета",
     Smart_Din_Tuya_63A_text_6: "Push-уведомление на телефон при выполнении действия по расписанию",
-    Smart_Din_Tuya_80A_text_1:
-      "Умный Zigbee автомат - это идеальное решение для тех, кто хочет управлять освещением и другими электрическими приборами в своем доме. Этот автомат оснащен защитой от перегрузки и короткого замыкания, что обеспечивает безопасность и надежность работы.",
-    Smart_Din_Tuya_80A_text_2:
-      "Устройство имеет множество функций, включая дистанционное включение и выключение приборов, управление с помощью выключателей, ручное управление кнопкой управления, контроль через Интернет и расписание автоматического включения/выключения. Также автомат имеет таймер обратного отсчета и Push-уведомления на телефон при выполнении действий по расписанию. Автомат имеет защиту от перегрузки, короткого замыкания и изоляцию.",
-    Smart_Din_Tuya_80A_text_3: "Комплектация:",
-    Smart_Din_Tuya_80A_text_4: "Автомат - 1 шт",
-    Smart_Din_Tuya_80A_text_5: "Антенна -1 шт",
-    Smart_Din_Tuya_80A_text_6: "Инструкция",
     "LED-Strip_Yandex": "Светодиодная лента Яндекс 3м",
     "Cable_LED-Strip_Yandex": "Удлинитель для светодиодная лента Яндекс",
     "LED-Strip_Kojimo": "Светодиодная лента KOJIMA 5м",
@@ -2205,18 +2223,23 @@ const translations = {
       "The siren is designed for audible alerting when various sensors in the user’s household are triggered. Timely alerting provides the opportunity to respond quickly to an abnormal situation in the home. Suitable for use in residential and office spaces. Works even in case of power outage.",
     Siren_text_2:
       "Technical specifications and parameters: Power supply: 100‑240 V / 50‑60 Hz. Battery: 3.7 V / 720 mAh. Sound level: 95 dB (at 1 m).",
-    Switch_touch_1x: "Touch Switch 1x",
-    Switch_touch_2x: "Touch Switch 2x",
-    Switch_touch_3x: "Touch Switch 3x",
-    Switch_keyboard_1x: "ROXIMO Switch 1-Key",
-    Switch_keyboard_2x: "ROXIMO Switch 2-Key",
-    Switch_keyboard_3x: "ROXIMO Switch 3-Key",
+    Switch_Bseed_1x: "Touch Switch 1x",
+    Switch_Bseed_2x: "Touch Switch 2x",
+    Switch_Bseed_3x: "Touch Switch 3x",
+    Switch_Roximo_1x: "ROXIMO Switch 1-Key",
+    Switch_Roximo_2x: "ROXIMO Switch 2-Key",
+    Switch_Roximo_3x: "ROXIMO Switch 3-Key",
+    Switch_Aqara_1x: "Aqara 1x Push Button Switch",
+    Switch_Aqara_2x: "Aqara 2x Push Button Switch",
+    Switch_Aqara_3x: "Aqara 3x Push Button Switch",
+    Switch_Aqara_4x: "Aqara 4x Push Button Switch",
     Switch_roller_touch: "Roller Blind Touch Switch",
     Socket_buildIn_1x: "Built-in Socket 1x",
     Socket_buildIn_2x: "Built-in Socket 2x",
     Socket_buildIn_3x: "Built-in Socket 3x",
-    Dimmer_touch: "Glass Dimmer",
+    Dimmer_Bseed: "Glass Dimmer",
     Dimmer_Yandex: "Yandex Smart Dimmer",
+    Dimmer_Aqara: "Aqara Rotary Dimmer",
     Relay_dimmer: "ZigBee Dimmer Relay, 2-channel",
     Slug_Yandex: "Yandex Smart Plug",
     Slug_Tuya: "Tuya Smart Plug",
@@ -2229,24 +2252,36 @@ const translations = {
     Smart_Din_40A: "Smart Circuit Breaker 1P 40A",
     Smart_Din_Moes_16A: "Moes Smart Breaker 16A",
     Smart_Din_Tuya_63A: "Tuya Smart Breaker 63A",
-    Smart_Din_Tuya_80A: "Tuya Smart Breaker 80A",
-    Switch_touch_text:
+    Switch_Bseed_text:
       "A smart switch that doesn't require changes to your lighting or wiring. No neutral wire is needed. Just replace your traditional switch and enjoy wide functionality — remote control via app, scheduled or timer-based switching, and voice control via Yandex Station.",
-    Switch_touch_color_text: "(Colors: White, Gold, Gray, Black)",
-    Switch_keyboard_text_1:
+    Switch_Bseed_color_text: "(Colors: White, Gold, Gray, Black)",
+    Switch_Roximo_text_1:
       "The switch housing fits standard electrical boxes. The front panel is made of high-quality plastic with control keys and LED status indicators.",
-    Switch_keyboard_text_2:
+    Switch_Roximo_text_2:
       "Direct connection to Yandex Zigbee — connect Roximo devices directly to a Zigbee-enabled Station or Yandex hub.",
-    Switch_keyboard_color_text: "(Colors: White, Gold, Bronze, Gray, Platinum, Black)",
+    Switch_Roximo_color_text: "(Colors: White, Gold, Bronze, Gray, Platinum, Black)",
+    Switch_Aqara_text_1:
+      "The Aqara Smart Switch is more than just a light switch — it makes your home smarter. The built-in touch panel can be used to dim smart lights, control curtains, and adjust brightness and light color.",
+    Switch_Aqara_text_2:
+      "Compatible with the following types of bulbs: incandescent, energy-saving, LED, and fluorescent.",
+    Switch_Aqara_text_3: "Supports gestures: single tap, double tap, long press, and swipe.",
+    Switch_Aqara_text_4:
+      "You can link the buttons of one switch to another in the Aqara Home app. For example, with an Aqara Z1 Pro in the room, you can control the lights in the hallway.",
+    Switch_Aqara_text_5:
+      "In the Aqara Home app, the device card has a “Button settings” option that switches the button to logic mode. This disables mechanical light control and allows the button to be linked to any automation, such as opening the curtains.",
     Switch_roller_touch_text:
       "Smart Wi-Fi curtain switch for electric curtains, roller blinds, shutters. Works like a regular wall switch but allows control from a mobile app. Installs in place of a traditional switch and connects via Wi-Fi.",
     Socket_buildIn_text:
       "Remotely turn off an iron or curling iron, turn on a heater or AC on your way home, set light schedules for plants or aquariums, turn on decorations via voice and more. With energy monitoring, track consumption in the app and see which devices are currently in use.",
     Socket_buildIn_color_text: "(Colors: White, Gold, Gray, Black)",
-    Dimmer_touch_text:
+    Dimmer_Bseed_text:
       "A smart dimmer is the perfect solution for controlling light intensity in your smart home. Adjust brightness levels via app or the device's touch panel.",
     Dimmer_Yandex_text:
       "The Yandex smart dimmer helps you fine-tune your home lighting — from bright and energizing to soft and relaxing. Only works with dimmable bulbs. Requires a neutral wire and fits a standard round wall box.",
+    Dimmer_Aqara_text_1:
+      "The H2 Wall Dimmer is a smart device that not only turns the lights on and off but also allows precise and smooth brightness adjustment. Its intuitive rotary knob makes it easy to set the perfect lighting for your mood and needs.",
+    Dimmer_Aqara_text_2:
+      "The wall dimmer can operate with or without a neutral wire. It is compatible with various lamp types, including incandescent, halogen, dimmable LED, and compact fluorescent (CFL) bulbs. It can directly control incandescent bulbs, dimmable LEDs, halogen lamps, fluorescent lights, and ELV devices, providing smooth dimming with 1% accuracy.",
     Relay_dimmer_text:
       "Zigbee dimmer relay is an innovative Smart Home device that lets you control lighting via phone app or voice. Compact mini design fits most switch and outlet boxes.",
     Slug_Yandex_text:
@@ -2280,14 +2315,6 @@ const translations = {
     Smart_Din_Tuya_63A_text_4: "Weekly/daily schedule for auto on/off.",
     Smart_Din_Tuya_63A_text_5: "Countdown timer.",
     Smart_Din_Tuya_63A_text_6: "Push notification on schedule execution.",
-    Smart_Din_Tuya_80A_text_1:
-      "Smart Zigbee breaker — ideal for managing lighting and electrical appliances. Features overload and short-circuit protection for safety and reliability.",
-    Smart_Din_Tuya_80A_text_2:
-      "Includes remote switching, switch control, manual button, online monitoring, scheduling, countdown timer, push notifications, and full protection.",
-    Smart_Din_Tuya_80A_text_3: "Package contents:",
-    Smart_Din_Tuya_80A_text_4: "Circuit Breaker - 1 pc",
-    Smart_Din_Tuya_80A_text_5: "Antenna - 1 pc",
-    Smart_Din_Tuya_80A_text_6: "User Manual",
     "LED-Strip_Yandex": "Yandex LED Strip 3m",
     "Cable_LED-Strip_Yandex": "Extension Cable for Yandex LED Strip",
     "LED-Strip_Kojimo": "KOJIMA LED Strip 5m",
