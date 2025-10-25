@@ -120,6 +120,15 @@
   -ms-flex-direction: column;
   flex-direction: column;
 }
+.wrapper_for_images_many {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.images_many {
+  width: 200px;
+  height: 200px;
+}
 .images_in_wrapper {
   width: 300px;
   height: 300px;
@@ -219,5 +228,9 @@ footer {
     float: none;
     margin: 0 auto 20px auto;
     display: block;
+  }
+  .images_many {
+    width: 100px;
+    height: 100px;
   }
 }

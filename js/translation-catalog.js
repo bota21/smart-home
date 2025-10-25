@@ -105,7 +105,7 @@ const translations = {
     Sensor_Human_presence_Aqara_FP2: "Aqara Presence Sensor FP2 адамның қатысуын анықтайтын датчик",
     Sensor_Human_presence_Roximo: "ROXIMO SWHPS08 қатысу және жарық датчигі",
     Sensor_Human_presence_24G: "24G Zigbee адамның қатысуын анықтайтын датчик",
-    Sensor_Human_presence_Navigator: "Navigator қатысу датчигі",
+    Sensor_Human_presence_Navigator: "Navigator қозғалыс датчигі",
     Sensor_move_Yandex: "Yandex қозғалыс датчигі",
     Sensor_move_Aqara: "Aqara Motion Sensor қозғалыс датчигі",
     Sensor_move_Sber: "SBER қозғалыс датчигі",
@@ -261,7 +261,7 @@ const translations = {
       "Қосқыш корпусы стандартты монтаж қораптарына сәйкес өлшемде. Беткі панелі жоғары сапалы пластиктен жасалған, басқару батырмалары мен LED индикаторлары орналастырылған.",
     Switch_keyboard_text_2:
       "Zigbee арқылы тікелей Яндекс‑ке қосу — Roximo құрылғыларын Яндекс Станциясы немесе Zigbee‑қолдайтын хабқа тікелей жалғаңыз.",
-    Switch_keyboard_color_text: "(түс: ақ, алтын, қола, сұр, қара)",
+    Switch_keyboard_color_text: "(түс: ақ, алтын, қола, сұр, платина, қара)",
     Switch_roller_touch_text:
       "Ақылды WiFi перде басқару қосқышы электрокарниздерді, роллшторларды немесе рольшторларды басқаруға арналған. Құрылғыны дәстүрлі қосқыш орнына орнатып, мобильді қосымша арқылы басқаруға болады.",
     Socket_buildIn_text:
@@ -1085,7 +1085,7 @@ const translations = {
     Sensor_Human_presence_Aqara_FP2: "Датчик присутствия Aqara Presence Sensor FP2",
     Sensor_Human_presence_Roximo: "Датчик присутствия и освещенности ROXIMO SWHPS08",
     Sensor_Human_presence_24G: "Датчик присутствия 24G Zigbee",
-    Sensor_Human_presence_Navigator: "Датчик присутствия Navigator ",
+    Sensor_Human_presence_Navigator: "Датчик движения Navigator ",
     Sensor_move_Yandex: "Датчик движения Яндекс",
     Sensor_move_Aqara: "Датчик движения Aqara Motion Sensor",
     Sensor_move_Sber: "Датчик движения SBER",
@@ -1162,7 +1162,7 @@ const translations = {
     Sensor_air_Aqara_text_3:
       "TVOC – это группа газов, которые могут быть вредны для здоровья человека. Мониторинг температуры и влажности: датчик также измеряет температуру и влажность в помещении. Датчик работает от батареи и может проработать до года без подзарядки.",
     Sensor_air_QingPing_text_1:
-      "Sensor_air_QingPing_text_1Интеллектуальный монитор качества воздуха CO2 Монитор температуры и влажности PM2.5 PM10 5 в 1 Lite Совместимый с OLED - дисплеем Apple HomeKit в режиме реального времени может заряжать аккумулятор емкостью 2000 мАч со временем работы до 7 часов. В режиме реального времени узнайте о PM2.5, PM10, CO2, температуре и влажности в помещении. Поддержка 2,4 ГГц Wi - Fi и BT для удаленного просмотра данных или экспорта исторических данных. Для пользователей домашнего приложения вы можете удаленно проверить пять индикаторов или настроить автоматизацию с помощью Home Hub. Дизайн UI в пиксельном стиле, с более широким углом зрения и более интересными операциями.",
+      "Интеллектуальный монитор качества воздуха CO2 Монитор температуры и влажности PM2.5 PM10 5 в 1 Lite Совместимый с OLED - дисплеем Apple HomeKit в режиме реального времени может заряжать аккумулятор емкостью 2000 мАч со временем работы до 7 часов. В режиме реального времени узнайте о PM2.5, PM10, CO2, температуре и влажности в помещении. Поддержка 2,4 ГГц Wi - Fi и BT для удаленного просмотра данных или экспорта исторических данных. Для пользователей домашнего приложения вы можете удаленно проверить пять индикаторов или настроить автоматизацию с помощью Home Hub. Дизайн UI в пиксельном стиле, с более широким углом зрения и более интересными операциями.",
     Sensor_air_QingPing_text_2:
       "• Совместимость с Apple HomeKit: Для пользователей приложения Apple Home можно удаленно проверить пять индикаторов или автоматизировать настройки с помощью Apple Home Hub.",
     Sensor_air_QingPing_text_3:
@@ -1242,7 +1242,7 @@ const translations = {
       "Корпус выключателя имеет удобный размер для монтажа в стандартные установочные коробки. Лицевая панель изготовлена из высококачественного пластика, на ней расположены клавиши для управления и LED индикаторы состояния.",
     Switch_keyboard_text_2:
       "Прямое подключение к Zigbee от Яндекс - подключайте устройства Roximo прямо к Станции с поддержкой Zigbee или хабу Яндекс.",
-    Switch_keyboard_color_text: "(цвета: белый, золото, бронзовый, серый, черный)",
+    Switch_keyboard_color_text: "(цвета: белый, золото, бронзовый, серый, платина, черный)",
     Switch_roller_touch_text:
       "Умный Wi-Fi выключатель управления шторами предназначен для управления электрокарнизами штор, рулонных штор, рольставен. Используйте устройство в качестве привычного комнатного выключателя с возможностью управления приводом штор из мобильного приложения. Устройство устанавливается на место «обычного» выключателя, является беспроводным устройством Wi-Fi.",
     Socket_buildIn_text:
@@ -2080,7 +2080,7 @@ const translations = {
     Sensor_Human_presence_Aqara_FP2: "Aqara Presence Sensor FP2",
     Sensor_Human_presence_Roximo: "ROXIMO Presence and Light Sensor",
     Sensor_Human_presence_24G: "24G Zigbee Presence Sensor",
-    Sensor_Human_presence_Navigator: "Navigator Presence Sensor",
+    Sensor_Human_presence_Navigator: "Navigator Motion Sensor",
     Sensor_move_Yandex: "Yandex Motion Sensor",
     Sensor_move_Aqara: "Aqara Motion Sensor",
     Sensor_move_Sber: "SBER Motion Sensor",
@@ -2237,7 +2237,7 @@ const translations = {
       "The switch housing fits standard electrical boxes. The front panel is made of high-quality plastic with control keys and LED status indicators.",
     Switch_keyboard_text_2:
       "Direct connection to Yandex Zigbee — connect Roximo devices directly to a Zigbee-enabled Station or Yandex hub.",
-    Switch_keyboard_color_text: "(Colors: White, Gold, Bronze, Gray, Black)",
+    Switch_keyboard_color_text: "(Colors: White, Gold, Bronze, Gray, Platinum, Black)",
     Switch_roller_touch_text:
       "Smart Wi-Fi curtain switch for electric curtains, roller blinds, shutters. Works like a regular wall switch but allows control from a mobile app. Installs in place of a traditional switch and connects via Wi-Fi.",
     Socket_buildIn_text:
