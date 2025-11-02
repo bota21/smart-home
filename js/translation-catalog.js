@@ -229,16 +229,22 @@ const translations = {
       "Сирена әртүрлі датчиктер іске қосылғанда дыбыстық ескерту беру үшін арналған. Уақытында хабарлау үйде болатын төтенше жағдайларға жедел жауап беруге мүмкіндік береді. Тұрғын және кеңсе ортасында қолдануға жарамды. Электр өшірілгенде де жұмыс істейді.",
     Siren_text_2:
       "Техникалық сипаттамалары: Қуат көзі: 100‑240 В / 50‑60 Гц. Аккумулятор: 3,7 В / 720 мА. Дыбыс деңгейі: 95 дБ (1 м қашықтықта).",
-    Switch_Bseed_1x: "Сенсорлы қосқыш 1х",
-    Switch_Bseed_2x: "Сенсорлы қосқыш 2х",
-    Switch_Bseed_3x: "Сенсорлы қосқыш 3х",
-    Switch_Roximo_1x: "ROXIMO қосқышы 1 кілт",
-    Switch_Roximo_2x: "ROXIMO қосқышы 2 кілт",
-    Switch_Roximo_3x: "ROXIMO қосқышы 3 кілт",
-    Switch_Aqara_1x: "Aqara 1x батырмалы қосқышы",
-    Switch_Aqara_2x: "Aqara 2x батырмалы қосқышы",
-    Switch_Aqara_3x: "Aqara 3x батырмалы қосқышы",
-    Switch_Aqara_4x: "Aqara 4x батырмалы қосқышы",
+    Switch_Yandex_1x: "Яндекс бір батырмалы қосқышы",
+    Switch_Yandex_2x: "Яндекс екі батырмалы қосқышы",
+    Switch_Bseed_sensor_1x: "BSEED сенсорлы қосқыш 1 батырма",
+    Switch_Bseed_sensor_2x: "BSEED сенсорлы қосқыш 2 батырма",
+    Switch_Bseed_sensor_3x: "BSEED сенсорлы қосқыш 3 батырма",
+    Switch_Bseed_keyboard_1x: "BSEED пернелі қосқыш 1 батырма",
+    Switch_Bseed_keyboard_2x: "BSEED пернелі қосқыш 2 батырма",
+    Switch_Bseed_keyboard_3x: "BSEED пернелі қосқыш 3 батырма",
+    Switch_Bseed_keyboard_4x: "BSEED пернелі қосқыш 4 батырма",
+    Switch_Roximo_1x: "ROXIMO қосқышы 1 батырма",
+    Switch_Roximo_2x: "ROXIMO қосқышы 2 батырма",
+    Switch_Roximo_3x: "ROXIMO қосқышы 3 батырма",
+    Switch_Aqara_1x: "Aqara пернелі қосқыш 1 батырма",
+    Switch_Aqara_2x: "Aqara пернелі қосқыш 2 батырма",
+    Switch_Aqara_3x: "Aqara пернелі қосқыш 3 батырма",
+    Switch_Aqara_4x: "Aqara пернелі қосқыш 4 батырма",
     Switch_roller_touch: "Роллшторларды басқару сенсорлы қосқыш",
     Socket_buildIn_1x: "Ішке кірістірілген розетка 1х",
     Socket_buildIn_2x: "Ішке кірістірілген розетка 2х",
@@ -258,9 +264,17 @@ const translations = {
     Smart_Din_40A: "DIN рельді ақылды автомат 40А",
     Smart_Din_Moes_16A: "Moes ақылды автомат 16А",
     Smart_Din_Tuya_63A: "Tuya ақылды автомат 63А",
-    Switch_Bseed_text:
+    Switch_Yandex_text_1:
+      "Сымды ақылды қосқыштың көмегімен оған қосылған жарықты — мысалы, кәдімгі шамдары бар люстраны — басқаруға болады.",
+    Switch_Yandex_text_2:
+      "V0 санатындағы отқа төзімді пластик қосымша сенімділікті қамтамасыз етеді, ал қосқыш корпусының желдеткіш тесіктері жылуды сыртқа шығарады.",
+    Switch_Yandex_text_3:
+      "Қосқыш Zigbee протоколында жұмыс істейді және ақылды үйге оңай қосылады. Тіпті интернет өшірілген жағдайда да алдын ала орнатылған сценарийлер жұмыс істей береді. Сымды қосқышты қосу үшін сізге 'Алисамен үй' қосымшасы және интернетке қосылған Zigbee хабы бар құрылғы (мысалы, Яндекс Станция немесе Хаб) қажет.",
+    Switch_Bseed_sensor_text:
       "Ақылды қосқыш жарықтандыруды өзгерту немесе сымдарды ауыстыруды қажет етпейді, қосымша арқылы қашықтан өшіруге, уақыт бойынша немесе таймер бойынша басқаруға, сондай‑ақ Яндекс станциясы арқылы дауыстық басқаруға мүмкіндік береді.",
-    Switch_Bseed_color_text: "(түс: ақ, алтын, сұр, қара)",
+    Switch_Bseed_sensor_color_text: "(түс: ақ, алтын, сұр, қара)",
+    Switch_Bseed_keyboard_text:
+      "Онымен сіз жарықты әртүрлі тәсілмен басқара аласыз: дауыспен, мобильді қосымша арқылы немесе әдеттегі батырманы басу арқылы. Енді диваннан тұрмай-ақ немесе қолыңыз босамай-ақ жарықты басқара аласыз. Үйден алыста болсаңыз да, телефон арқылы жарықтың қосулы қалғанын тексеріп, қашықтан сөндіре аласыз. Сондай-ақ жарықты белгілі бір уақытта қосу/өшіру таймерін орната аласыз. Электр қуаты өшкенде соңғы күйін (жұмыс режимін) есте сақтау функциясы да бар.",
     Switch_Roximo_text_1:
       "Қосқыш корпусы стандартты монтаж қораптарына сәйкес өлшемде. Беткі панелі жоғары сапалы пластиктен жасалған, басқару батырмалары мен LED индикаторлары орналастырылған.",
     Switch_Roximo_text_2:
@@ -982,7 +996,8 @@ const translations = {
     Yandex_Smart_Home: "Яндекс ақылды үй",
     Communication_protocol: "Байланыс протоколы",
     IR_Port: "ИК порты",
-    footer_info_price: "* Бағалар прайсты алған сәттен бастап тек 3 күнге дейін өзекті",
+    footer_info_price:
+      "* Бағалар ақпараттық мақсатта көрсетілген және нақты бағалардан өзгешеленуі мүмкін. Нақты құнын анықтау үшін беттің жоғарғы бөлігінде көрсетілген байланыс арқылы хабарласыңыз.",
     Back: "Басты бетке",
   },
   ru: {
@@ -1219,20 +1234,26 @@ const translations = {
       "Сирена предназначена для звукового оповещения при срабатывании различных датчиков в домохозяйстве пользователя. Своевременное оповещение дает возможность оперативно среагировать на нештатную ситуацию в доме. Подходит для использования в жилых и офисных помещениях. Работает даже при отключении электроэнергии.",
     Siren_text_2:
       "Технические характеристики и параметры: Напряжение питания: 100-240 В / 50-60 Гц Аккумуляторная батарея: 3,7 В/ 720 мА Уровень звука: 95 дБ (на расстоянии 1 м)",
-    Switch_Bseed_1x: "Выключатель сенсорный",
-    Switch_Bseed_2x: "Выключатель сенсорный 2х",
-    Switch_Bseed_3x: "Выключатель сенсорный 3х",
+    Switch_Yandex_1x: "Выключатель одноклавишный Яндекс",
+    Switch_Yandex_2x: "Выключатель двухклавишный Яндекс",
+    Switch_Bseed_sensor_1x: "Выключатель сенсорный 1кл",
+    Switch_Bseed_sensor_2x: "Выключатель сенсорный 2кл",
+    Switch_Bseed_sensor_3x: "Выключатель сенсорный 3кл",
+    Switch_Bseed_keyboard_1x: "Выключатель клавишный BSEED 1кл",
+    Switch_Bseed_keyboard_2x: "Выключатель клавишный BSEED 2кл",
+    Switch_Bseed_keyboard_3x: "Выключатель клавишный BSEED 3кл",
+    Switch_Bseed_keyboard_4x: "Выключатель клавишный BSEED 4кл",
     Switch_Roximo_1x: "Выключатель ROXIMO 1кл",
     Switch_Roximo_2x: "Выключатель ROXIMO 2кл",
     Switch_Roximo_3x: "Выключатель ROXIMO 3кл",
-    Switch_Aqara_1x: "Выключатель клавишный Aqara 1x",
-    Switch_Aqara_2x: "Выключатель клавишный Aqara 2x",
-    Switch_Aqara_3x: "Выключатель клавишный Aqara 3x",
-    Switch_Aqara_4x: "Выключатель клавишный Aqara 4x",
+    Switch_Aqara_1x: "Выключатель клавишный Aqara 1кл",
+    Switch_Aqara_2x: "Выключатель клавишный Aqara 2кл",
+    Switch_Aqara_3x: "Выключатель клавишный Aqara 3кл",
+    Switch_Aqara_4x: "Выключатель клавишный Aqara 4кл",
     Switch_roller_touch: "Выключатель для роллштор сенсорный",
     Socket_buildIn_1x: "Розетка встроенная",
-    Socket_buildIn_2x: "Розетка встроенная 2х",
-    Socket_buildIn_3x: "Розетка встроенная 3х",
+    Socket_buildIn_2x: "Розетка встроенная двойная",
+    Socket_buildIn_3x: "Розетка встроенная тройная",
     Dimmer_Bseed: "Диммер стеклянный",
     Dimmer_Yandex: "Умный диммер Яндекс",
     Dimmer_Aqara: "Диммер Aqara поворотный",
@@ -1248,9 +1269,17 @@ const translations = {
     Smart_Din_40A: "Умный автомат 1P 40A",
     Smart_Din_Moes_16A: "Умный автомат Moes 16A",
     Smart_Din_Tuya_63A: "Умный автомат Tuya 63A",
-    Switch_Bseed_text:
+    Switch_Yandex_text_1:
+      "С помощью проводного умного выключателя можно управлять подключенным к нему освещением — например, люстрой с обычными лампочками.",
+    Switch_Yandex_text_2:
+      "Пожароустойчивый пластик класса V0 обеспечивает дополнительную надежность, а вентиляционные отверстия в корпусе выключателя отводят от него тепло.",
+    Switch_Yandex_text_3:
+      "Выключатель работает на протоколе Zigbee, он легко подключается к умному дому, а настроенные сценарии с выключателем могут работать, даже если отключится интернет. Для подключения проводного выключателя вам понадобятся приложение Дом с Алисой и устройство с хабом Zigbee, подключенное к интернету (Яндекс Станция или Хаб).",
+    Switch_Bseed_sensor_text:
       "Умный выключатель не требует модификации освещения и замены проводки, не требуется дополнительный нулевой провод. Просто замените традиционный выключатель и наслаждайтесь широким функционалом - Дистанционное выключение света через приложение, выключение в заданное время или по таймеру, а так же голосовое управление через Яндекс Станцию.",
-    Switch_Bseed_color_text: "(цвета: белый, золото, серый, черный)",
+    Switch_Bseed_sensor_color_text: "(цвета: белый, золото, серый, черный)",
+    Switch_Bseed_keyboard_text:
+      "С ним вы сможете управлять светом различными способами: голосом, через мобильное приложение или привычным механическим нажатием. Теперь не нужно будет вставать с дивана или подходить, если заняты руки. Находясь где угодно, можно проверить с телефона, не остался ли дома включенным свет, и дистанционно выключить его. Также вы сможете настроить включение / выключение света по таймеру в заданное время. Доступно запоминание последнего состояния (режима работы) при отключении электричества.",
     Switch_Roximo_text_1:
       "Корпус выключателя имеет удобный размер для монтажа в стандартные установочные коробки. Лицевая панель изготовлена из высококачественного пластика, на ней расположены клавиши для управления и LED индикаторы состояния.",
     Switch_Roximo_text_2:
@@ -1989,7 +2018,8 @@ const translations = {
     Yandex_Smart_Home: "Умный дом Яндекса",
     Communication_protocol: "Протокол связи",
     IR_Port: "ИК Порт",
-    footer_info_price: "* Цены актуальны только на 3 дня с момента получения прайса",
+    footer_info_price:
+      "* Цены указаны для ознакомления и могут отличаться от актуальных. Для уточнения стоимости свяжитесь с нами по контактам, указанным вверху страницы.",
     Back: "На главную страницу",
   },
   en: {
@@ -2223,16 +2253,22 @@ const translations = {
       "The siren is designed for audible alerting when various sensors in the user’s household are triggered. Timely alerting provides the opportunity to respond quickly to an abnormal situation in the home. Suitable for use in residential and office spaces. Works even in case of power outage.",
     Siren_text_2:
       "Technical specifications and parameters: Power supply: 100‑240 V / 50‑60 Hz. Battery: 3.7 V / 720 mAh. Sound level: 95 dB (at 1 m).",
-    Switch_Bseed_1x: "Touch Switch 1x",
-    Switch_Bseed_2x: "Touch Switch 2x",
-    Switch_Bseed_3x: "Touch Switch 3x",
-    Switch_Roximo_1x: "ROXIMO Switch 1-Key",
-    Switch_Roximo_2x: "ROXIMO Switch 2-Key",
-    Switch_Roximo_3x: "ROXIMO Switch 3-Key",
-    Switch_Aqara_1x: "Aqara 1x Push Button Switch",
-    Switch_Aqara_2x: "Aqara 2x Push Button Switch",
-    Switch_Aqara_3x: "Aqara 3x Push Button Switch",
-    Switch_Aqara_4x: "Aqara 4x Push Button Switch",
+    Switch_Yandex_1x: "Yandex single-button switch",
+    Switch_Yandex_2x: "Yandex double-button switch",
+    Switch_Bseed_sensor_1x: "BSEED touch switch 1 button",
+    Switch_Bseed_sensor_2x: "BSEED touch switch 2 buttons",
+    Switch_Bseed_sensor_3x: "BSEED touch switch 3 buttons",
+    Switch_Bseed_keyboard_1x: "BSEED keyboard switch 1 button",
+    Switch_Bseed_keyboard_2x: "BSEED keyboard switch 2 buttons",
+    Switch_Bseed_keyboard_3x: "BSEED keyboard switch 3 buttons",
+    Switch_Bseed_keyboard_4x: "BSEED keyboard switch 4 buttons",
+    Switch_Roximo_1x: "ROXIMO switch 1 button",
+    Switch_Roximo_2x: "ROXIMO switch 2 buttons",
+    Switch_Roximo_3x: "ROXIMO switch 3 buttons",
+    Switch_Aqara_1x: "Aqara keyboard switch 1 button",
+    Switch_Aqara_2x: "Aqara keyboard switch 2 buttons",
+    Switch_Aqara_3x: "Aqara keyboard switch 3 buttons",
+    Switch_Aqara_4x: "Aqara keyboard switch 4 buttons",
     Switch_roller_touch: "Roller Blind Touch Switch",
     Socket_buildIn_1x: "Built-in Socket 1x",
     Socket_buildIn_2x: "Built-in Socket 2x",
@@ -2252,9 +2288,17 @@ const translations = {
     Smart_Din_40A: "Smart Circuit Breaker 1P 40A",
     Smart_Din_Moes_16A: "Moes Smart Breaker 16A",
     Smart_Din_Tuya_63A: "Tuya Smart Breaker 63A",
-    Switch_Bseed_text:
+    Switch_Yandex_text_1:
+      "With a wired smart switch, you can control the connected lighting — for example, a chandelier with regular bulbs.",
+    Switch_Yandex_text_2:
+      "The V0 fire-resistant plastic provides extra safety, while the ventilation holes in the switch housing help dissipate heat.",
+    Switch_Yandex_text_3:
+      "The switch operates via the Zigbee protocol and easily integrates into your smart home. Configured scenarios with the switch continue to work even if the internet goes down. To connect the wired switch, you’ll need the 'Home with Alice' app and a Zigbee hub device connected to the internet (such as Yandex Station or Hub).",
+    Switch_Bseed_sensor_text:
       "A smart switch that doesn't require changes to your lighting or wiring. No neutral wire is needed. Just replace your traditional switch and enjoy wide functionality — remote control via app, scheduled or timer-based switching, and voice control via Yandex Station.",
-    Switch_Bseed_color_text: "(Colors: White, Gold, Gray, Black)",
+    Switch_Bseed_sensor_color_text: "(Colors: White, Gold, Gray, Black)",
+    Switch_Bseed_keyboard_text:
+      "With it, you can control the light in various ways: by voice, via the mobile app, or with a regular button press. You no longer need to get up from the sofa or walk over when your hands are busy. Wherever you are, you can check from your phone if the light was left on and turn it off remotely. You can also set a timer to turn the light on or off at specific times. The device remembers the last state (mode) after a power outage.",
     Switch_Roximo_text_1:
       "The switch housing fits standard electrical boxes. The front panel is made of high-quality plastic with control keys and LED status indicators.",
     Switch_Roximo_text_2:
@@ -2975,7 +3019,8 @@ const translations = {
     Yandex_Smart_Home: "Yandex Smart Home",
     Communication_protocol: "Communication protocol",
     IR_Port: "IR Port",
-    footer_info_price: "* Prices are valid for only 3 days from the date of receiving the price list",
+    footer_info_price:
+      "* The prices are provided for reference only and may differ from the actual ones. To confirm the exact cost, please contact us using the details provided at the top of the page.",
     Back: "To the main page",
   },
 };
