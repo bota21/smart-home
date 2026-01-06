@@ -13,6 +13,8 @@ const translations = {
     "For entrance and yard": "Кіреберіс пен аула үшін",
     Station_Alice_Max: "Яндекс Макс динамигі",
     Station_Alice_Duo: "Яндекс Дуо Макс динамигі",
+    Station_Alice_Lite_3: "Yandex Станция 3",
+    Station_Alice_Lite_3: "Яндекс Станция 3",
     Station_Alice_Midi: "Яндекс Миди динамигі",
     Station_Alice_Mini3Pro: "Яндекс Мини 3 Про динамигі",
     Station_Alice_Mini3: "Яндекс Мини 3 динамигі",
@@ -21,10 +23,12 @@ const translations = {
     Station_Alice_TV165: "Яндекс Бейсик теледидары 165 см",
     Remote_Yandex: "Яндекс қашықтан басқару пульті",
     Hub_Yandex: "Яндекс басқару орталығы",
+    Hub_Yandex_sensor: "Температура мен ылғалдылық датчигі бар Yandex ақылды пульті",
     Hub_Aqara_M2: "Aqara Hub M2 ақылды үй орталығы",
     Hub_Aqara_M3: "Aqara Hub M3 ақылды үй орталығы",
     Hub_Roximo: "ROXIMO ақылды хабы",
     Hub_Tuya: "Tuya басқару орталығы",
+    Modul_mini_3_pro: "Station Mini 3 Pro үшін Yandex климаттық модулі",
     Station_Alice_Max_text_1:
       "Яндекс Макс ақылды колонкасы мата қапталған пластик корпуста орналасқан. Алдыңғы жағында монохромды LED-дисплей бар — ол күнді, ауа райын көрсетеді және дауыстық көмекшінің анимациясын шығарады. Жоғарғы панельдегі жарық сақинасы станция күйін түсінің өзгеруімен, жыпылықтауымен, айналуымен, жарқылдауымен және пульсациясымен көрсетеді. Құрылғының бүйірлерінде 5 динамик пен 7 микрофон орналасқан. Үш жолақты акустикалық жүйе әртүрлі динамиктерден төмен, орта және жоғары жиіліктерді ойнатады.",
     Station_Alice_Max_text_2:
@@ -354,6 +358,7 @@ const translations = {
     "LED-Strip_Kojimo": "KOJIMA жарықдиодты лентасы 5м",
     "LED-Strip_Roximo": "ROXIMO гирляндасы",
     Lamp_Aqara: "Aqara Ceiling Light төбелік шамы",
+    Light_table_Yandex: "Yandex ақылды эмбиент шамы",
     "Control_LED-Strip": "12/24V 15А жарықдиодты лентаға арналған диммер",
     "Control_LED-Strip_RGB": "RGB LED лентасына арналған контроллер 12В, 24В",
     "Bulb_E14_4.5": "E14 4.5W Gauss филаментті шамы, жылы ақ түс",
@@ -389,6 +394,10 @@ const translations = {
     Lamp_Aqara_text_5: "Ұзақ қызмет ету мерзімі: Жарықдиод көзі 50 000 сағатқа дейін қызмет етеді.",
     Lamp_Aqara_text_6:
       "Заманауи дизайн: Aqara Ceiling Light T1M жіңішке әрі заманауи дизайнға ие және кез келген интерьерге сай келеді.",
+    Light_table_Yandex_text_1:
+      "YNDX-00560 моделі RGBW спектрін қолдайтын және 220 лм жарық ағыны бар интеллектуалды жарықтандыру шешімі болып табылады.",
+    Light_table_Yandex_text_2:
+      "Құрылғы мобильді қосымша және дауыстық көмекшілер арқылы қашықтан басқаруды қолдайды, бұл жұмысты кесте бойынша автоматтандыруға мүмкіндік береді. Сондай-ақ корпус үстіңгі бөлігінде қолмен басқаруға арналған сенсорлық интерфейс қарастырылған.",
     "Control_LED-Strip_text":
       "Ақылды үйге арналған диммер-контроллер, Алисамен жұмыс істейді. Жарықдиодты ленталардың жарықтығын дауыс арқылы немесе сценарийлер арқылы басқаруға мүмкіндік береді.",
     "Control_LED-Strip_RGB_text":
@@ -493,7 +502,7 @@ const translations = {
     Control_heater_Yandex: "Yandex радиаторлық терморегуляторы",
     Control_heater_Aqara: "Aqara радиатор термостаті",
     Control_floor_Electsmart_black: "Electsmart ақылды термостаті, қара",
-    Control_floor_Electsmart_white: "Welrok ақылды термостаті, ашық түс",
+    Control_floor_Welrok_white: "Welrok ақылды термостаті, ашық түс",
     Control_floor_Celtic_white: "Celtic ақылды термостаті, ашық түс",
     Control_floor_Celtic_black: "Celtic ақылды термостаті, қара",
     Control_boiler_Bugatti: "Federica Bugatti Wi-Fi қазандық басқару модулі",
@@ -1000,6 +1009,7 @@ const translations = {
     "For entrance and yard": "Для подъезда и двора",
     Station_Alice_Max: "Яндекс станция Макс",
     Station_Alice_Duo: "Яндекс станция Дуо Макс",
+    Station_Alice_Lite_3: "Яндекс Станция 3",
     Station_Alice_Midi: "Яндекс станция Миди",
     Station_Alice_Mini3Pro: "Яндекс станция Мини 3 Про",
     Station_Alice_Mini3: "Яндекс станция Мини 3",
@@ -1008,10 +1018,12 @@ const translations = {
     Station_Alice_TV165: "Телевизор Яндекс Бейсик 165 см",
     Remote_Yandex: "Пульт ДУ Яндекс",
     Hub_Yandex: "Яндекс центр управления",
+    Hub_Yandex_sensor: "Умный пульт с датчиком температуры и влажности Яндекс",
     Hub_Aqara_M2: "Центр умного дома Aqara Hub M2",
     Hub_Aqara_M3: "Центр умного дома Aqara Hub M3",
     Hub_Roximo: "Умный хаб ROXIMO",
     Hub_Tuya: "Центр управления Tuya",
+    Modul_mini_3_pro: "Климатический модуль Яндекса для Станции Мини 3 Про",
     Station_Alice_Max_text_1:
       "Умная колонка Яндекс Макс заключена в корпус из пластика, обтянутого тканью. На лицевой стороне расположен монохромный LED-дисплей, который отображает дату, погоду, выводит анимацию голосового помощника. Световое кольцо на верхней панели показывает состояние станции сменой цветов, миганием, вращением, мерцанием, пульсацией. По бокам колонки находятся 5 динамиков и 7 микрофонов. Трехполосная акустическая система воспроизводит низкие, средние и высокие частоты из разных динамиков.",
     Station_Alice_Max_text_2:
@@ -1345,7 +1357,7 @@ const translations = {
     "LED-Strip_Kojimo": "Светодиодная лента KOJIMA 5м",
     "LED-Strip_Roximo": "Гирлянда ROXIMO",
     Lamp_Aqara: "Cветильник потолочный Aqara Ceiling Light",
-
+    Light_table_Yandex: "Умная эмби лампа Яндекс",
     "Control_LED-Strip": "Диммер для светодиодной ленты 12,24V 15А",
     "Control_LED-Strip_RGB": "Контроллер RGB для LED лент 12В, 24В",
     "Bulb_E14_4.5": "Лампочка Е14 4,5W Gauss филаментная теплый белый",
@@ -1383,7 +1395,10 @@ const translations = {
       "Долгий срок службы: Светодиодный источник света имеет срок службы 50 000 часов, что обеспечивает его долговечность.",
     Lamp_Aqara_text_6:
       "Стильный дизайн: Aqara Ceiling Light T1M имеет тонкий и современный дизайн, который дополняет различные интерьеры.",
-
+    Light_table_Yandex_text_1:
+      "Модель YNDX-00560 представляет собой интеллектуальное световое решение с поддержкой RGBW-спектра и световым потоком 220 лм.",
+    Light_table_Yandex_text_2:
+      "Устройство поддерживает дистанционное управление через мобильный софт и голосовых ассистентов, позволяя автоматизировать работу по расписанию. Также предусмотрен ручной сенсорный интерфейс на верхней части корпуса.",
     "Control_LED-Strip_text":
       "Контроллер диммер для умного дома, работает с Алисой. Позволяет регулировать яркостью светодиодных лент через голосового помощника или с помощью сценарий.",
     "Control_LED-Strip_RGB_text":
@@ -2009,6 +2024,7 @@ const translations = {
     "For entrance and yard": "For entrance and yard",
     Station_Alice_Max: "Yandex Station Max",
     Station_Alice_Duo: "Yandex Station Duo Max",
+    Station_Alice_Lite_3: "Yandex Station 3",
     Station_Alice_Midi: "Yandex Station Midi",
     Station_Alice_Mini3Pro: "Yandex Station Mini 3 Pro",
     Station_Alice_Mini3: "Yandex Station Mini 3",
@@ -2017,10 +2033,12 @@ const translations = {
     Station_Alice_TV165: "Yandex Basic TV 165 cm",
     Remote_Yandex: "Yandex Remote",
     Hub_Yandex: "Yandex Control Hub",
+    Hub_Yandex_sensor: "Yandex smart remote with temperature and humidity sensor",
     Hub_Aqara_M2: "Aqara Smart Home Hub M2",
     Hub_Aqara_M3: "Aqara Smart Home Hub M3",
     Hub_Roximo: "ROXIMO Smart Hub",
     Hub_Tuya: "Tuya Control Hub",
+    Modul_mini_3_pro: "Yandex climate module for Station Mini 3 Pro",
     Station_Alice_Max_text_1:
       "The Yandex Station Max smart speaker is enclosed in a plastic body covered with fabric. On the front is a monochrome LED display that shows the date, weather, and voice assistant animations. The light ring on the top panel indicates the station's status by changing colors, blinking, spinning, flickering, and pulsing. On the sides are 5 speakers and 7 microphones. The three-way speaker system reproduces low, mid, and high frequencies using separate drivers.",
     Station_Alice_Max_text_2:
@@ -2351,6 +2369,7 @@ const translations = {
     "LED-Strip_Kojimo": "KOJIMA LED Strip 5m",
     "LED-Strip_Roximo": "ROXIMO Garland",
     Lamp_Aqara: "Aqara Ceiling Light",
+    Light_table_Yandex: "Yandex smart ambient lamp",
     "Control_LED-Strip": "Dimmer for LED Strip 12/24V 15A",
     "Control_LED-Strip_RGB": "RGB Controller for LED Strips 12V, 24V",
     "Bulb_E14_4.5": "E14 4.5W Gauss Filament Bulb, Warm White",
@@ -2386,6 +2405,10 @@ const translations = {
     Lamp_Aqara_text_5: "Long lifetime: The LED light source has a rated life of 50,000 hours, ensuring durability.",
     Lamp_Aqara_text_6:
       "Stylish design: The Aqara Ceiling Light T1M features a slim, modern design that complements various interiors.",
+    Light_table_Yandex_text_1:
+      "The YNDX-00560 model is an intelligent lighting solution supporting the RGBW spectrum with a luminous flux of 220 lm.",
+    Light_table_Yandex_text_2:
+      "The device supports remote control via a mobile app and voice assistants, allowing scheduled automation. A manual touch interface is also provided on the top of the корпус.",
     "Control_LED-Strip_text":
       "Dimmer controller for smart home, works with Alice. Allows you to adjust LED strip brightness via voice assistant or automation scenarios.",
     "Control_LED-Strip_RGB_text":
@@ -2490,7 +2513,7 @@ const translations = {
     Control_heater_Yandex: "Yandex radiator thermostat",
     Control_heater_Aqara: "Aqara Radiator Thermostat",
     Control_floor_Electsmart_black: "Electsmart Smart Thermostat Black",
-    Control_floor_Electsmart_white: "Welrok Smart Thermostat Light",
+    Control_floor_Welrok_white: "Welrok Smart Thermostat Light",
     Control_floor_Celtic_white: "Celtic Smart Thermostat Light",
     Control_floor_Celtic_black: "Celtic Smart Thermostat Black",
     Control_boiler_Bugatti: "Federica Bugatti Wi-Fi Boiler Control Module",
