@@ -105,3 +105,7 @@ $(function () {
     }
   }
 });
+window.toggleZoom = function (img) {
+  img.classList.toggle("zoomed");
+  document.body.classList.toggle("zoom-active");
+};

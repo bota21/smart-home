@@ -234,3 +234,36 @@ footer {
     height: 100px;
   }
 }
+
+.image_tab {
+  /* width: 200px; */
+  cursor: zoom-in;
+  transition: transform 0.3s ease;
+}
+
+/* Увеличенное состояние */
+.image_tab.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(2);
+  max-width: 90vw;
+  max-height: 90vh;
+  cursor: zoom-out;
+  z-index: 1000;
+}
+body.zoom-active::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 999;
+}
+@media (max-width: 768px) {
+  .image_tab.zoomed {
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: 95vw;
+    max-height: 90vh;
+  }
+}
