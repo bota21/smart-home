@@ -238,7 +238,6 @@ footer {
 .image_tab,
 .images_in_wrapper,
 .images_many {
-  /* width: 200px; */
   cursor: zoom-in;
   transition: transform 0.3s ease;
 }
@@ -267,9 +266,12 @@ body.zoom-active::before {
   .image_tab.zoomed,
   .images_in_wrapper,
   .images_many {
-    transform: translate(-50%, -50%);
-    width: auto;
+    /* transform: translate(-50%, -50%); */
+    /* width: auto; */
     max-width: 95vw;
     max-height: 90vh;
+  }
+  .images_in_wrapper.zoomed {
+    width: 45%;
   }
 }
